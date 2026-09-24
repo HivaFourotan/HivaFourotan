@@ -1,9 +1,9 @@
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                    ✨ PROFILE README ✨                      -->
-<!--              Made with ❤️  by YOU                          -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                     ✨ PROFILE README ✨                         -->
+<!--                    Made with ❤️  by YOU                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!-- ─────────────── 🎨 HEADER (Capsule Render) ─────────────── -->
+<!-- ─────────────── 🎨 HEADER ─────────────── -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=YOUR%20NAME&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Builder%20%7C%20Dreamer&descAlignY=58&descSize=18" width="100%" />
 </div>
