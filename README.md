@@ -86,7 +86,7 @@
 
 ## 🏢 Our Organization
 
-<a href="https://github.com/YOUR-ORG">
+<a href="[https://github.com/YOUR-ORG](https://github.com/mokstudent)">
   <img src="https://img.shields.io/badge/🚀_Our_Team-Building_Together-00F7FF?style=for-the-badge&labelColor=0d1117" />
 </a>
 
