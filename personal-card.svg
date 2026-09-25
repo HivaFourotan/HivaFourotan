@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="rightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="20" y="15" width="860" height="200" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- کارت اصلی -->
+  <rect x="20" y="15" width="860" height="200" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- ستون راست (با clip برای گوشه‌های گرد) -->
+  <g clip-path="url(#cardClip)">
+    <rect x="580" y="15" width="300" height="200" fill="#161b22" opacity="0.65"/>
+    <line x1="580" y1="15" x2="580" y2="215" stroke="#30363d" stroke-width="1"/>
+  </g>
+
+  <!-- حاشیه فیروزه‌ای -->
+  <rect x="20" y="15" width="860" height="200" rx="16" fill="none" stroke="#00F7FF" stroke-width="1.5"/>
+
+  <!-- ═══ ستون چپ ═══ -->
+  <!-- نام -->
+  <text x="50" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Hiva </text>
+  <text x="133" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700" fill="#f0883e">Fourotan</text>
+
+  <!-- خط زیر نام -->
+  <line x1="50" y1="82" x2="550" y2="82" stroke="#30363d" stroke-width="1"/>
+
+  <!-- عنوان شغلی -->
+  <text x="50" y="110" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" fill="#c9d1d9">Software Developer</text>
+
+  <!-- تخصص‌ها -->
+  <text x="50" y="138" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#8b949e">Full-Stack · AI · Automation</text>
+
+  <!-- توضیحات -->
+  <text x="50" y="168" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8b949e">I build web applications, explore AI-powered tools, and craft</text>
+  <text x="50" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8b949e">clean, efficient code. Currently a high school student passionate</text>
+  <text x="50" y="208" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8b949e">about open source and continuous learning.</text>
+
+  <!-- ═══ ستون راست ═══ -->
+  <!-- تیتر -->
+  <text x="610" y="58" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#f0883e" letter-spacing="1">AVAILABLE WORLDWIDE</text>
+  <line x1="610" y1="70" x2="850" y2="70" stroke="#30363d" stroke-width="1"/>
+
+  <!-- اطلاعات -->
+  <text x="610" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#c9d1d9"><tspan font-weight="700">Location:</tspan> Iran</text>
+  <text x="610" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#c9d1d9"><tspan font-weight="700">Timezone:</tspan> Asia/Tehran</text>
+  <text x="610" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#c9d1d9"><tspan font-weight="700">Focus:</tspan> Web · AI · Open Source</text>
+</svg>
