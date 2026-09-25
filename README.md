@@ -1,4 +1,3 @@
-<!-- ═══════════════ 🟢 HIVA HERO CARD ═══════════════ -->
 <div align="center">
   <img src="hiva-hero.svg" width="95%" alt="Hiva Fourotan — Software Developer" />
 </div>
@@ -6,9 +5,7 @@
 <br/>
 
 <br/>
-<!-- ═══════════════ 🌊 HEADER (امواج) + 🌧️ MATRIX BACKGROUND ═══════════════ -->
 <div align="center" style="position: relative;">
-  <img src="matrix-rain.svg" width="100%" style="position: absolute; top: 0; left: 0; z-index: 0;" />
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=I%27m%20Hiva&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Builder%20%7C%20Dreamer&descAlignY=58&descSize=18" width="100%" style="position: relative; z-index: 1;" />
 </div>
 
