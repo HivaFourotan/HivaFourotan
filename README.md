@@ -1,10 +1,6 @@
 <!-- ═══════════════ 🟢 HIVA HERO ═══════════════ -->
 <div align="center">
-
-<a href="https://github.com/HivaFourotan">
-  <img src="hiva-hero.svg" width="100%" alt="Hiva Fourotan — Software Developer" />
-</a>
-
+<img src="hiva-hero.svg" width="100%" alt="Hiva Fourotan — Software Developer" />
 </div>
 
 ---
