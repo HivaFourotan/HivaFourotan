@@ -1,40 +1,6 @@
-<!-- ═══════════════ 📇 PERSONAL CARD — سبک Anton Karas ═══════════════ -->
+<!-- ═══════════════ 📇 PERSONAL CARD ═══════════════ -->
 <div align="center">
-  <table style="background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); border: 2px solid #00F7FF; border-radius: 16px; padding: 0; width: 95%; box-shadow: 0 0 25px rgba(0, 247, 255, 0.15); border-collapse: separate;">
-    <tr>
-      <!-- ستون چپ: نام و عنوان -->
-      <td style="padding: 28px 24px; text-align: left; width: 60%; vertical-align: top; border-right: 1px solid #30363d;">
-        <h1 style="margin: 0; font-size: 2.4em; color: #ffffff; font-family: 'Segoe UI', sans-serif; letter-spacing: 1px;">
-          Hiva <span style="color: #f0883e;">Fourotan</span>
-        </h1>
-        <h3 style="margin: 6px 0 18px 0; color: #8b949e; font-weight: 400; font-family: 'Segoe UI', sans-serif; font-size: 1.1em;">
-          Software Developer
-        </h3>
-        <p style="margin: 0; font-size: 1.05em; line-height: 1.7; color: #c9d1d9; font-family: 'Segoe UI', sans-serif;">
-          <strong>Full-Stack</strong> · <strong>AI</strong> · <strong>Automation</strong>
-        </p>
-        <p style="margin-top: 14px; font-size: 0.95em; color: #8b949e; line-height: 1.6; font-family: 'Segoe UI', sans-serif;">
-          I build web applications, explore AI-powered tools, and craft clean, efficient code. 
-          Currently a high school student passionate about open source and continuous learning.
-        </p>
-      </td>
-      <!-- ستون راست: اطلاعات مکانی و تخصص -->
-      <td style="padding: 28px 24px; text-align: left; width: 40%; vertical-align: top; background: rgba(22, 27, 34, 0.6); border-radius: 0 14px 14px 0;">
-        <h4 style="margin: 0 0 16px 0; color: #f0883e; font-size: 1.05em; font-family: 'Segoe UI', sans-serif; letter-spacing: 0.5px;">
-          AVAILABLE WORLDWIDE
-        </h4>
-        <p style="margin: 6px 0; font-size: 0.9em; color: #c9d1d9; font-family: 'Segoe UI', sans-serif;">
-          <strong>Location:</strong> Iran 🇮🇷
-        </p>
-        <p style="margin: 6px 0; font-size: 0.9em; color: #c9d1d9; font-family: 'Segoe UI', sans-serif;">
-          <strong>Timezone:</strong> Asia/Tehran
-        </p>
-        <p style="margin: 6px 0; font-size: 0.9em; color: #c9d1d9; font-family: 'Segoe UI', sans-serif;">
-          <strong>Focus:</strong> Web · AI · Open Source
-        </p>
-      </td>
-    </tr>
-  </table>
+  <img src="personal-card.svg" width="95%" alt="Hiva Fourotan — Software Developer" />
 </div>
 
 <br/>
