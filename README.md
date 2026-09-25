@@ -1,20 +1,19 @@
-<!-- ═══════════════ 🟢 HIVA HERO — امواج + ماتریکس + کارت ═══════════════ -->
+<!-- ═══════════════ 🟢 HIVA HERO ═══════════════ -->
 <div align="center">
-  <a href="https://github.com/HivaFourotan">
-    <img src="hiva-hero.svg" width="95%" alt="Hiva Fourotan — Software Developer" />
-  </a>
+
+<a href="https://github.com/HivaFourotan">
+  <img src="hiva-hero.svg" width="100%" alt="Hiva Fourotan — Software Developer" />
+</a>
+
 </div>
 
-<br/>
+---
 
-<!-- ═══════════════ 🎨 Hiva-OS SVG ═══════════════ -->
+<!-- ═══════════════ 🐍 SNAKE ═══════════════ -->
 <div align="center">
-  <img src="hiva-os.svg" width="100%" />
-</div>
 
-<!-- ═══════════════ 🐍 اسنیک ═══════════════ -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+
 </div>
 
 ---
@@ -36,7 +35,7 @@
 
 ---
 
-<!-- ═══════════════ 🔥 STREAK STATS ═══════════════ -->
+<!-- ═══════════════ 🔥 STREAK ═══════════════ -->
 <div align="center">
 
 ## 🔥 My Streak
@@ -47,7 +46,7 @@
 
 ---
 
-<!-- ═══════════════ 💼 FEATURED PROJECTS ═══════════════ -->
+<!-- ═══════════════ 💼 PROJECTS ═══════════════ -->
 <div align="center">
 
 ## 💼 Featured Projects
@@ -66,7 +65,7 @@
 
 ---
 
-<!-- ═══════════════ 🏢 OUR ORGANIZATION ═══════════════ -->
+<!-- ═══════════════ 🏢 ORGANIZATION ═══════════════ -->
 <div align="center">
 
 ## 🏢 Our Organization
@@ -103,7 +102,7 @@
 
 ---
 
-<!-- ═══════════════ 🏆 CUSTOM BADGES ═══════════════ -->
+<!-- ═══════════════ 🏆 BADGES ═══════════════ -->
 <div align="center">
 
 ## 🏆 About Me in Badges
