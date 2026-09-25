@@ -99,7 +99,7 @@
 <!-- ═══════════════ 😂 RANDOM DEV JOKE ═══════════════ -->
 <div align="center">
 
-## 😂 Random Dev Joke
+## 😂Dev Joke's
 
 <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
 
@@ -110,7 +110,7 @@
 <!-- ═══════════════ 💬 RANDOM DEV QUOTE ═══════════════ -->
 <div align="center">
 
-## 💬 Random Dev Quote
+## 💬Dev Quote's
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Readme Quotes" />
 
@@ -124,7 +124,7 @@
 ## 🏆 About Me in Badges
 
 <img src="https://img.shields.io/badge/🎻_Violinist-8B4513?style=for-the-badge" />
-<img src="https://img.shields.io/badge/🎓_High_School_Coder-4B0082?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🎓_science_lover-4B0082?style=for-the-badge" />
 <img src="https://img.shields.io/badge/🚀_Young_Developer-00F7FF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/☕_Coffee_Addict-6F4E37?style=for-the-badge" />
 <img src="https://img.shields.io/badge/🌙_Night_Owl-1a1b27?style=for-the-badge" />
