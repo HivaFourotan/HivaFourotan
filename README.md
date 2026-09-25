@@ -1,22 +1,13 @@
-<div align="center">
-  <img src="hiva-hero.svg" width="95%" alt="Hiva Fourotan — Software Developer" />
-</div>
-
-<br/>
-
-<br/>
-<div align="center" style="position: relative;">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=I%27m%20Hiva&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Builder%20%7C%20Dreamer&descAlignY=58&descSize=18" width="100%" style="position: relative; z-index: 1;" />
-</div>
-
-<!-- ═══════════════ ⌨️ نام متحرک ═══════════════ -->
+<!-- ═══════════════ 🟢 HIVA HERO — امواج + ماتریکس + کارت ═══════════════ -->
 <div align="center">
   <a href="https://github.com/HivaFourotan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Hiva;Full-Stack+Developer+%F0%9F%92%BB;Open+Source+Enthusiast+%E2%9C%A8;Building+cool+stuff+with+friends+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="hiva-hero.svg" width="95%" alt="Hiva Fourotan — Software Developer" />
   </a>
 </div>
 
-<!-- ═══════════════ 🎨 SVG اختصاصی Hiva-OS ═══════════════ -->
+<br/>
+
+<!-- ═══════════════ 🎨 Hiva-OS SVG ═══════════════ -->
 <div align="center">
   <img src="hiva-os.svg" width="100%" />
 </div>
@@ -25,17 +16,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
-
-<!-- ═══════════════ 🎮 پکمن (فقط اگه ورک‌فلو داری فعال کن) ═══════════════ -->
-<!--
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HivaFourotan/HivaFourotan/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HivaFourotan/HivaFourotan/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/HivaFourotan/HivaFourotan/output/pacman-contribution-graph.svg" width="100%">
-  </picture>
-</div>
--->
 
 ---
 
@@ -72,14 +52,14 @@
 
 ## 💼 Featured Projects
 
-<a href="[https://github.com/HivaFourotan/REPO-1](https://github.com/HivaFourotan/Linux-Ubuntu-26.04)">
-  <img src="https://img.shields.io/badge/_Ubunto 26.04-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/HivaFourotan/Linux-Ubuntu-26.04">
+  <img src="https://img.shields.io/badge/🐧_Ubuntu_26.04-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="[https://github.com/HivaFourotan/REPO-2](https://github.com/HivaFourotan/Mac-Os-26-)">
-  <img src="https://img.shields.io/badge/_Mac OS 26-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/HivaFourotan/Mac-Os-26-">
+  <img src="https://img.shields.io/badge/🍎_Mac_OS_26-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="[https://github.com/HivaFourotan/REPO-3](https://github.com/HivaFourotan/Game-station)">
-  <img src="https://img.shields.io/badge/_Pixel Games-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/HivaFourotan/Game-station">
+  <img src="https://img.shields.io/badge/🎮_Pixel_Games-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
@@ -91,7 +71,7 @@
 
 ## 🏢 Our Organization
 
-<a href="[https://github.com/YOUR-ORG](https://github.com/mokstudent)">
+<a href="https://github.com/mokstudent">
   <img src="https://img.shields.io/badge/🚀_Our_Team-Building_Together-00F7FF?style=for-the-badge&labelColor=0d1117" />
 </a>
 
@@ -101,10 +81,10 @@
 
 ---
 
-<!-- ═══════════════ 😂 RANDOM DEV JOKE ═══════════════ -->
+<!-- ═══════════════ 😂 DEV JOKE ═══════════════ -->
 <div align="center">
 
-## 😂Dev Joke's
+## 😂 Dev Joke's
 
 <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
 
@@ -112,10 +92,10 @@
 
 ---
 
-<!-- ═══════════════ 💬 RANDOM DEV QUOTE ═══════════════ -->
+<!-- ═══════════════ 💬 DEV QUOTE ═══════════════ -->
 <div align="center">
 
-## 💬Dev Quote's
+## 💬 Dev Quote's
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Readme Quotes" />
 
@@ -129,8 +109,8 @@
 ## 🏆 About Me in Badges
 
 <img src="https://img.shields.io/badge/🎻_Violinist-8B4513?style=for-the-badge" />
-<img src="https://img.shields.io/badge/🎓_science_lover-4B0082?style=for-the-badge" />
-<img src="https://img.shields.io/badge/🚀_Young_Developer-00F7FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🎓_Science_Lover-4B0082?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🚀_Young_Developer-00F7FF?style=for-the-badge&logoColor=black" />
 <img src="https://img.shields.io/badge/☕_Coffee_Addict-6F4E37?style=for-the-badge" />
 <img src="https://img.shields.io/badge/🌙_Night_Owl-1a1b27?style=for-the-badge" />
 
@@ -151,7 +131,7 @@ const me = {
   role: "Developer 🚀",
   location: "Iran 🇮🇷",
   languages: ["JavaScript", "Python", "TypeScript"],
-  hobbies: ["Coding", "Open Source", "violin", "High School"],
+  hobbies: ["Coding", "Open Source", "Violin 🎻", "High School"],
   currentFocus: "HTML - TypeScript - AI",
   funFact: "I won't sleep before the code works"
 };
