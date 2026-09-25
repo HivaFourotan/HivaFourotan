@@ -1,106 +1,91 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#0d1117"/>
   <defs>
-    <!-- گرادینت محو شدن به سمت پایین -->
-    <linearGradient id="fadeToBottom" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#0d1117" stop-opacity="0.3"/>
-      <stop offset="70%" stop-color="#0d1117" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#0d1117" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="1"/>
     </linearGradient>
+    <g id="col">
+      <text y="16">1</text><text y="34">0</text><text y="52">1</text>
+      <text y="70">0</text><text y="88">1</text><text y="106">0</text>
+      <text y="124">1</text><text y="142">0</text><text y="160">1</text>
+      <text y="178">0</text><text y="196">1</text>
+    </g>
   </defs>
 
-  <!-- بک‌گراند گیت‌هاب -->
-  <rect width="800" height="200" fill="#0d1117"/>
-
-  <!-- ستون‌های ماتریکس (ثابت و بدون انیمیشن) -->
-  <!-- ستون ۱ -->
-  <g fill="#00FF41" font-family="monospace" font-size="13">
-    <text x="20" y="25" opacity="0.95">1</text>
-    <text x="20" y="45" opacity="0.85">0</text>
-    <text x="20" y="65" opacity="0.75">1</text>
-    <text x="20" y="85" opacity="0.65">0</text>
-    <text x="20" y="105" opacity="0.55">1</text>
-    <text x="20" y="125" opacity="0.45">0</text>
-    <text x="20" y="145" opacity="0.35">1</text>
-    <text x="20" y="165" opacity="0.25">0</text>
-    <text x="20" y="185" opacity="0.15">1</text>
+  <g fill="#00FF41" font-family="ui-monospace,monospace" font-size="14">
+    <g opacity="0.95">
+      <use href="#col" x="24" y="0"/>
+      <use href="#col" x="24" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="3.2s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.72">
+      <use href="#col" x="78" y="0"/>
+      <use href="#col" x="78" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="4.6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.55">
+      <use href="#col" x="132" y="0"/>
+      <use href="#col" x="132" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="5.8s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.88">
+      <use href="#col" x="186" y="0"/>
+      <use href="#col" x="186" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="3.8s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.62">
+      <use href="#col" x="240" y="0"/>
+      <use href="#col" x="240" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="6.4s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.8">
+      <use href="#col" x="294" y="0"/>
+      <use href="#col" x="294" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="4.1s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.5">
+      <use href="#col" x="348" y="0"/>
+      <use href="#col" x="348" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.9">
+      <use href="#col" x="402" y="0"/>
+      <use href="#col" x="402" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="3.5s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.66">
+      <use href="#col" x="456" y="0"/>
+      <use href="#col" x="456" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="5.2s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.78">
+      <use href="#col" x="510" y="0"/>
+      <use href="#col" x="510" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="4.4s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.58">
+      <use href="#col" x="564" y="0"/>
+      <use href="#col" x="564" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="6.1s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.84">
+      <use href="#col" x="618" y="0"/>
+      <use href="#col" x="618" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="3.9s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.48">
+      <use href="#col" x="672" y="0"/>
+      <use href="#col" x="672" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="7.4s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.7">
+      <use href="#col" x="726" y="0"/>
+      <use href="#col" x="726" y="-200"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -200" to="0 0" dur="5s" repeatCount="indefinite"/>
+    </g>
   </g>
 
-  <!-- ستون ۲ -->
-  <g fill="#00FF41" font-family="monospace" font-size="13">
-    <text x="55" y="15" opacity="0.9">0</text>
-    <text x="55" y="35" opacity="0.8">1</text>
-    <text x="55" y="55" opacity="0.7">0</text>
-    <text x="55" y="75" opacity="0.6">1</text>
-    <text x="55" y="95" opacity="0.5">0</text>
-    <text x="55" y="115" opacity="0.4">1</text>
-    <text x="55" y="135" opacity="0.3">0</text>
-    <text x="55" y="155" opacity="0.2">1</text>
-    <text x="55" y="175" opacity="0.1">0</text>
-  </g>
-
-  <!-- ستون ۳ -->
-  <g fill="#00FF41" font-family="monospace" font-size="13">
-    <text x="90" y="30" opacity="0.85">1</text>
-    <text x="90" y="50" opacity="0.75">0</text>
-    <text x="90" y="70" opacity="0.65">1</text>
-    <text x="90" y="90" opacity="0.55">0</text>
-    <text x="90" y="110" opacity="0.45">1</text>
-    <text x="90" y="130" opacity="0.35">0</text>
-    <text x="90" y="150" opacity="0.25">1</text>
-    <text x="90" y="170" opacity="0.15">0</text>
-    <text x="90" y="190" opacity="0.08">1</text>
-  </g>
-
-  <!-- ستون ۴ -->
-  <g fill="#00FF41" font-family="monospace" font-size="13">
-    <text x="125" y="10" opacity="0.9">0</text>
-    <text x="125" y="30" opacity="0.8">1</text>
-    <text x="125" y="50" opacity="0.7">0</text>
-    <text x="125" y="70" opacity="0.6">1</text>
-    <text x="125" y="90" opacity="0.5">0</text>
-    <text x="125" y="110" opacity="0.4">1</text>
-    <text x="125" y="130" opacity="0.3">0</text>
-    <text x="125" y="150" opacity="0.2">1</text>
-    <text x="125" y="170" opacity="0.1">0</text>
-  </g>
-
-  <!-- ستون ۵ -->
-  <g fill="#00FF41" font-family="monospace" font-size="13">
-    <text x="160" y="22" opacity="0.95">1</text>
-    <text x="160" y="42" opacity="0.85">0</text>
-    <text x="160" y="62" opacity="0.75">1</text>
-    <text x="160" y="82" opacity="0.65">0</text>
-    <text x="160" y="102" opacity="0.55">1</text>
-    <text x="160" y="122" opacity="0.45">0</text>
-    <text x="160" y="142" opacity="0.35">1</text>
-    <text x="160" y="162" opacity="0.25">0</text>
-    <text x="160" y="182" opacity="0.15">1</text>
-  </g>
-
-  <!-- ستون‌های بیشتر (برای پرتر شدن) -->
-  <g fill="#00FF41" font-family="monospace" font-size="13">
-    <text x="200" y="18" opacity="0.8">0</text>
-    <text x="200" y="38" opacity="0.7">1</text>
-    <text x="200" y="58" opacity="0.6">0</text>
-    <text x="200" y="78" opacity="0.5">1</text>
-    <text x="200" y="98" opacity="0.4">0</text>
-    <text x="200" y="118" opacity="0.3">1</text>
-    <text x="200" y="138" opacity="0.2">0</text>
-    <text x="200" y="158" opacity="0.1">1</text>
-  </g>
-
-  <g fill="#00FF41" font-family="monospace" font-size="13">
-    <text x="240" y="35" opacity="0.9">1</text>
-    <text x="240" y="55" opacity="0.8">0</text>
-    <text x="240" y="75" opacity="0.7">1</text>
-    <text x="240" y="95" opacity="0.6">0</text>
-    <text x="240" y="115" opacity="0.5">1</text>
-    <text x="240" y="135" opacity="0.4">0</text>
-    <text x="240" y="155" opacity="0.3">1</text>
-    <text x="240" y="175" opacity="0.2">0</text>
-  </g>
-
-  <!-- محو شدن پایین -->
-  <rect width="800" height="200" fill="url(#fadeToBottom)"/>
+  <rect width="800" height="200" fill="url(#fade)"/>
 </svg>
