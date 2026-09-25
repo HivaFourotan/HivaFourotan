@@ -2,14 +2,7 @@
 <!--                      🌐 HIVA-OS · PROFILE                        -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!-- ─────────────── 🌊 هدر گرادیانی ─────────────── -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=I'm%20Hiva&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Coder%20%7C%20Dreamer&descAlignY=58&descSize=18" width="100%" />
-</div>
-
-<br/>
-
-<!-- ─────────────── 🟢 HIVA HERO (SVG با ماتریکس) ─────────────── -->
+<!-- ─────────────── 🟢 HIVA HERO (همه چیز داخلش) ─────────────── -->
 <div align="center">
   <a href="https://github.com/HivaFourotan">
     <img src="hiva-hero.svg" width="100%" alt="Hiva Fourotan — Software Developer" />
@@ -17,15 +10,6 @@
 </div>
 
 <br/>
-
-<!-- ─────────────── ⌨️ نام متحرک ─────────────── -->
-<div align="center">
-  <a href="https://github.com/HivaFourotan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1200&color=8DFFC2&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B+I'm+Hiva;Full-Stack+Developer+%F0%9F%92%BB;Violinist+%26+Coder+%F0%9F%8E%BB;Building+cool+stuff+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
-</div>
-
----
 
 <!-- ─────────────── 🐍 SNAKE ─────────────── -->
 <div align="center">
@@ -102,7 +86,7 @@
 
 ---
 
-<!-- ─────────────── 🎮 PIXEL / FUN ZONE ─────────────── -->
+<!-- ─────────────── 😂 DEV ZONE ─────────────── -->
 <div align="center">
 
 ## 😂 Dev Zone
