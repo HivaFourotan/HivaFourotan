@@ -14,14 +14,24 @@
 
 </div>
 
-<br/>
-
-<!-- ═══════════════ 🌧️ MATRIX RAIN ═══════════════ -->
+---
+<!-- ═══════════════ 🧑‍💻 ABOUT ME ═══════════════ -->
 <div align="center">
-  <img src="matrix-rain.svg" width="100%" alt="Matrix Rain" />
+
+## 🧑‍💻 About Me
+
 </div>
 
----
+```typescript
+const me = {
+  name: "Hiva",
+  role: "Developer 🚀",
+  location: "Iran 🇮🇷",
+  languages: ["JavaScript", "Python", "TypeScript"],
+  hobbies: ["Coding", "Open Source", "Violin 🎻", "High School"],
+  currentFocus: "HTML - TypeScript - AI",
+  funFact: "I won't sleep before the code works"
+};
 
 <!-- ═══════════════ 🛠️ TECH STACK ═══════════════ -->
 <div align="center">
@@ -51,20 +61,3 @@
 
 ---
 
-<!-- ═══════════════ 🧑‍💻 ABOUT ME ═══════════════ -->
-<div align="center">
-
-## 🧑‍💻 About Me
-
-</div>
-
-```typescript
-const me = {
-  name: "Hiva",
-  role: "Developer 🚀",
-  location: "Iran 🇮🇷",
-  languages: ["JavaScript", "Python", "TypeScript"],
-  hobbies: ["Coding", "Open Source", "Violin 🎻", "High School"],
-  currentFocus: "HTML - TypeScript - AI",
-  funFact: "I won't sleep before the code works"
-};
