@@ -1,18 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800">
   <!-- ═══ پس‌زمینه ═══ -->
-  <rect width="900" height="480" fill="#0a0f0a"/>
+  <rect width="900" height="800" fill="#0a0f0a"/>
 
   <defs>
-    <!-- گرادینت محو شدن روی متن (وسط تیره‌تر) -->
+    <!-- ═══ گرادینت محو شدن روی ماتریکس ═══ -->
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0"    stop-color="#0a0f0a" stop-opacity="0.35"/>
-      <stop offset="0.18" stop-color="#0a0f0a" stop-opacity="0.5"/>
-      <stop offset="0.3"  stop-color="#0a0f0a" stop-opacity="0.85"/>
-      <stop offset="0.8"  stop-color="#0a0f0a" stop-opacity="0.9"/>
-      <stop offset="1"    stop-color="#0a0f0a" stop-opacity="0.98"/>
+      <stop offset="0.3"  stop-color="#0a0f0a" stop-opacity="0.75"/>
+      <stop offset="0.7"  stop-color="#0a0f0a" stop-opacity="0.88"/>
+      <stop offset="1"    stop-color="#0a0f0a" stop-opacity="0.95"/>
     </linearGradient>
 
-    <!-- ═══ الگوهای ستون ماتریکس (کد خودت) ═══ -->
+    <!-- ═══ گرادینت امواج سبز ═══ -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a4d2e"/>
+      <stop offset="40%"  stop-color="#2ea043"/>
+      <stop offset="75%"  stop-color="#56d364"/>
+      <stop offset="100%" stop-color="#8dffc2"/>
+    </linearGradient>
+
+    <!-- ═══ سایه روی امواج برای عمق ═══ -->
+    <linearGradient id="waveShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#000000" stop-opacity="0.25"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1"   stop-color="#ffffff" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <!-- ═══ الگوهای ماتریکس (کد خودت) ═══ -->
     <g id="a" fill="#8dffc2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
       <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">1</text>
       <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
@@ -37,12 +51,25 @@
       <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">0</text>
       <text y="209" opacity="1" fill="#f4fff8">1</text>
     </g>
-    <g id="pa"><use href="#a" y="0"/><use href="#a" y="-210"/><use href="#a" y="-420"/></g>
-    <g id="pb"><use href="#b" y="0"/><use href="#b" y="-210"/><use href="#b" y="-420"/></g>
-    <g id="pc"><use href="#c" y="0"/><use href="#c" y="-210"/><use href="#c" y="-420"/></g>
+
+    <!-- تکرار عمودی برای پوشش کل ارتفاع -->
+    <g id="pa">
+      <use href="#a" y="0"/><use href="#a" y="-210"/>
+      <use href="#a" y="-420"/><use href="#a" y="-630"/>
+    </g>
+    <g id="pb">
+      <use href="#b" y="0"/><use href="#b" y="-210"/>
+      <use href="#b" y="-420"/><use href="#b" y="-630"/>
+    </g>
+    <g id="pc">
+      <use href="#c" y="0"/><use href="#c" y="-210"/>
+      <use href="#c" y="-420"/><use href="#c" y="-630"/>
+    </g>
   </defs>
 
-  <!-- ═══ لایه باران ماتریکس ═══ -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--                    🌧️ لایه باران ماتریکس                -->
+  <!-- ═══════════════════════════════════════════════════════ -->
   <g>
     <use href="#pa" x="8"/><use href="#pa" x="136"/><use href="#pa" x="264"/>
     <use href="#pa" x="392"/><use href="#pa" x="520"/><use href="#pa" x="648"/><use href="#pa" x="776"/>
@@ -84,64 +111,105 @@
     <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="2s" begin="-1.55s" repeatCount="indefinite"/>
   </g>
 
-  <!-- ═══ گرادینت محو شدن روی باران ═══ -->
-  <rect width="900" height="480" fill="url(#fade)"/>
+  <!-- ═══ گرادینت محو شدن روی ماتریکس ═══ -->
+  <rect width="900" height="800" fill="url(#fade)"/>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                      محتوای کارت                        -->
+  <!--                   🌊 امواج سبز بالای صفحه              -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <g>
+    <path d="M0,0 L900,0 L900,130
+             Q750,190 600,130
+             T300,130
+             T0,130 Z"
+          fill="url(#waveGrad)"/>
+    <path d="M0,0 L900,0 L900,130
+             Q750,190 600,130
+             T300,130
+             T0,130 Z"
+          fill="url(#waveShadow)"/>
+
+    <!-- متن داخل امواج -->
+    <text x="450" y="68" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+          font-size="54" font-weight="800" fill="#ffffff" text-anchor="middle"
+          letter-spacing="1.5">
+      I&apos;m Hiva
+    </text>
+    <text x="450" y="102" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+          font-size="15" font-weight="500" fill="#d1f7e0" text-anchor="middle"
+          letter-spacing="2">
+      DEVELOPER  ·  VIOLINIST  ·  DREAMER
+    </text>
+  </g>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--                    👤 کارت معرفی                       -->
   <!-- ═══════════════════════════════════════════════════════ -->
 
-  <!-- ═══ ستون چپ: معرفی ═══ -->
-  <!-- نام -->
-  <text x="55" y="130" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Hiva </text>
-  <text x="192" y="130" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#8dffc2">Fourotan</text>
+  <!-- ═══ ستون چپ: نام و اطلاعات ═══ -->
+  <text x="55" y="265" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="46" font-weight="800" fill="#ffffff">Hiva </text>
+  <text x="185" y="265" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="46" font-weight="800" fill="#8dffc2">Fourotan</text>
 
-  <!-- خط جداکننده سبز -->
-  <line x1="55" y1="155" x2="530" y2="155" stroke="#238636" stroke-width="1.5"/>
+  <line x1="55" y1="288" x2="540" y2="288" stroke="#238636" stroke-width="1.5"/>
 
   <!-- عنوان شغلی -->
-  <text x="55" y="195" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#7ee787">Software Developer</text>
+  <text x="55" y="330" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="700" fill="#7ee787">Software Developer</text>
 
   <!-- تخصص‌ها -->
-  <text x="55" y="228" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#56d364">Full-Stack · AI · Automation</text>
+  <text x="55" y="362" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="15" font-weight="500" fill="#56d364">Full-Stack  ·  AI  ·  Automation</text>
 
   <!-- توضیحات -->
-  <text x="55" y="275" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">I build web applications, explore AI-powered tools,</text>
-  <text x="55" y="297" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">and craft clean, efficient code. Currently a high</text>
-  <text x="55" y="319" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">school student passionate about open source.</text>
+  <text x="55" y="410" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#c9d1d9">I build web applications, explore AI-powered tools,</text>
+  <text x="55" y="432" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#c9d1d9">and craft clean, efficient code. Currently a high</text>
+  <text x="55" y="454" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#c9d1d9">school student passionate about open source.</text>
 
   <!-- نقل‌قول -->
-  <text x="55" y="360" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#8dffc2">"Code is my instrument, GitHub is my stage."</text>
+  <text x="55" y="510" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="13" font-style="italic" fill="#8dffc2">"Code is my instrument, GitHub is my stage."</text>
 
-  <!-- ═══ ستون راست: اطلاعات ═══ -->
-  <!-- خط عمودی جداکننده -->
-  <line x1="580" y1="80" x2="580" y2="400" stroke="#238636" stroke-width="1"/>
+  <!-- ═══ خط جداکننده عمودی ═══ -->
+  <line x1="580" y1="225" x2="580" y2="600" stroke="#238636" stroke-width="1"/>
 
-  <!-- تیتر -->
-  <text x="620" y="110" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#8dffc2" letter-spacing="1.5">AVAILABLE WORLDWIDE</text>
-  <line x1="620" y1="125" x2="845" y2="125" stroke="#238636" stroke-width="1"/>
+  <!-- ═══ ستون راست: اطلاعات مکانی ═══ -->
+  <text x="620" y="250" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="700" fill="#8dffc2" letter-spacing="1.5">AVAILABLE WORLDWIDE</text>
+  <line x1="620" y1="264" x2="845" y2="264" stroke="#238636" stroke-width="1"/>
 
-  <!-- اطلاعات -->
-  <text x="620" y="165" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#56d364" font-weight="700">Location</text>
-  <text x="620" y="187" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Iran</text>
+  <text x="620" y="305" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="700" fill="#56d364" letter-spacing="0.5">LOCATION</text>
+  <text x="620" y="327" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#c9d1d9">Iran</text>
 
-  <text x="620" y="225" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#56d364" font-weight="700">Timezone</text>
-  <text x="620" y="247" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Asia/Tehran</text>
+  <text x="620" y="368" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="700" fill="#56d364" letter-spacing="0.5">TIMEZONE</text>
+  <text x="620" y="390" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#c9d1d9">Asia/Tehran</text>
 
-  <text x="620" y="285" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#56d364" font-weight="700">Focus</text>
-  <text x="620" y="307" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Web · AI</text>
-  <text x="620" y="327" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Open Source</text>
+  <text x="620" y="431" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="13" font-weight="700" fill="#56d364" letter-spacing="0.5">FOCUS</text>
+  <text x="620" y="453" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#c9d1d9">Web  ·  AI</text>
+  <text x="620" y="473" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="14" fill="#c9d1d9">Open Source</text>
 
   <!-- ═══ خط پایین ═══ -->
-  <line x1="55" y1="415" x2="845" y2="415" stroke="#238236" stroke-width="1"/>
+  <line x1="55" y1="650" x2="845" y2="650" stroke="#238636" stroke-width="1"/>
 
   <!-- امضا -->
-  <text x="55" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#56d364">
+  <text x="55" y="690" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="13" fill="#56d364">
     <tspan fill="#8dffc2">$</tspan> Hiva-OS v1.0 · Built with code &amp; rhythm 🎻
   </text>
 
   <!-- نقطه چشمک‌زن -->
-  <circle cx="845" cy="440" r="4" fill="#8dffc2">
-    <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+  <circle cx="845" cy="685" r="4" fill="#8dffc2">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
   </circle>
 </svg>
