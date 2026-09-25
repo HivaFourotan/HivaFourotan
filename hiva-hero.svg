@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+  <!-- ═══ پس‌زمینه ═══ -->
+  <rect width="900" height="480" fill="#0a0f0a"/>
+
+  <defs>
+    <!-- گرادینت محو شدن روی متن (وسط تیره‌تر) -->
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#0a0f0a" stop-opacity="0.35"/>
+      <stop offset="0.18" stop-color="#0a0f0a" stop-opacity="0.5"/>
+      <stop offset="0.3"  stop-color="#0a0f0a" stop-opacity="0.85"/>
+      <stop offset="0.8"  stop-color="#0a0f0a" stop-opacity="0.9"/>
+      <stop offset="1"    stop-color="#0a0f0a" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <!-- ═══ الگوهای ستون ماتریکس (کد خودت) ═══ -->
+    <g id="a" fill="#8dffc2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">1</text>
+      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
+      <text y="97" opacity="0.34">0</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
+      <text y="139" opacity="0.58">1</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
+      <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">1</text>
+      <text y="209" opacity="1" fill="#f4fff8">1</text>
+    </g>
+    <g id="b" fill="#8dffc2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+      <text y="13" opacity="0.07">0</text><text y="27" opacity="0.09">1</text><text y="41" opacity="0.12">0</text>
+      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">1</text><text y="83" opacity="0.27">0</text>
+      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
+      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
+      <text y="181" opacity="0.85">1</text><text y="195" opacity="0.93">0</text>
+      <text y="209" opacity="1" fill="#f4fff8">1</text>
+    </g>
+    <g id="c" fill="#8dffc2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">0</text>
+      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
+      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
+      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">1</text><text y="167" opacity="0.76">1</text>
+      <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">0</text>
+      <text y="209" opacity="1" fill="#f4fff8">1</text>
+    </g>
+    <g id="pa"><use href="#a" y="0"/><use href="#a" y="-210"/><use href="#a" y="-420"/></g>
+    <g id="pb"><use href="#b" y="0"/><use href="#b" y="-210"/><use href="#b" y="-420"/></g>
+    <g id="pc"><use href="#c" y="0"/><use href="#c" y="-210"/><use href="#c" y="-420"/></g>
+  </defs>
+
+  <!-- ═══ لایه باران ماتریکس ═══ -->
+  <g>
+    <use href="#pa" x="8"/><use href="#pa" x="136"/><use href="#pa" x="264"/>
+    <use href="#pa" x="392"/><use href="#pa" x="520"/><use href="#pa" x="648"/><use href="#pa" x="776"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.2s" begin="-0.2s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.82">
+    <use href="#pb" x="24"/><use href="#pb" x="152"/><use href="#pb" x="280"/>
+    <use href="#pb" x="408"/><use href="#pb" x="536"/><use href="#pb" x="664"/><use href="#pb" x="792"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.55s" begin="-0.85s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.7">
+    <use href="#pc" x="40"/><use href="#pc" x="168"/><use href="#pc" x="296"/>
+    <use href="#pc" x="424"/><use href="#pc" x="552"/><use href="#pc" x="680"/><use href="#pc" x="808"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.35s" begin="-1.1s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.9">
+    <use href="#pa" x="56"/><use href="#pa" x="184"/><use href="#pa" x="312"/>
+    <use href="#pa" x="440"/><use href="#pa" x="568"/><use href="#pa" x="696"/><use href="#pa" x="824"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.85s" begin="-0.45s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.76">
+    <use href="#pb" x="72"/><use href="#pb" x="200"/><use href="#pb" x="328"/>
+    <use href="#pb" x="456"/><use href="#pb" x="584"/><use href="#pb" x="712"/><use href="#pb" x="840"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.25s" begin="-1.4s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.64">
+    <use href="#pc" x="88"/><use href="#pc" x="216"/><use href="#pc" x="344"/>
+    <use href="#pc" x="472"/><use href="#pc" x="600"/><use href="#pc" x="728"/><use href="#pc" x="856"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.7s" begin="-0.3s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.58">
+    <use href="#pa" x="104"/><use href="#pa" x="232"/><use href="#pa" x="360"/>
+    <use href="#pa" x="488"/><use href="#pa" x="616"/><use href="#pa" x="744"/><use href="#pa" x="872"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.42s" begin="-0.95s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0.86">
+    <use href="#pb" x="120"/><use href="#pb" x="248"/><use href="#pb" x="376"/>
+    <use href="#pb" x="504"/><use href="#pb" x="632"/><use href="#pb" x="760"/><use href="#pb" x="888"/>
+    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="2s" begin="-1.55s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ═══ گرادینت محو شدن روی باران ═══ -->
+  <rect width="900" height="480" fill="url(#fade)"/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--                      محتوای کارت                        -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+
+  <!-- ═══ ستون چپ: معرفی ═══ -->
+  <!-- نام -->
+  <text x="55" y="130" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Hiva </text>
+  <text x="192" y="130" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#8dffc2">Fourotan</text>
+
+  <!-- خط جداکننده سبز -->
+  <line x1="55" y1="155" x2="530" y2="155" stroke="#238636" stroke-width="1.5"/>
+
+  <!-- عنوان شغلی -->
+  <text x="55" y="195" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#7ee787">Software Developer</text>
+
+  <!-- تخصص‌ها -->
+  <text x="55" y="228" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#56d364">Full-Stack · AI · Automation</text>
+
+  <!-- توضیحات -->
+  <text x="55" y="275" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">I build web applications, explore AI-powered tools,</text>
+  <text x="55" y="297" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">and craft clean, efficient code. Currently a high</text>
+  <text x="55" y="319" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">school student passionate about open source.</text>
+
+  <!-- نقل‌قول -->
+  <text x="55" y="360" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#8dffc2">"Code is my instrument, GitHub is my stage."</text>
+
+  <!-- ═══ ستون راست: اطلاعات ═══ -->
+  <!-- خط عمودی جداکننده -->
+  <line x1="580" y1="80" x2="580" y2="400" stroke="#238636" stroke-width="1"/>
+
+  <!-- تیتر -->
+  <text x="620" y="110" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#8dffc2" letter-spacing="1.5">AVAILABLE WORLDWIDE</text>
+  <line x1="620" y1="125" x2="845" y2="125" stroke="#238636" stroke-width="1"/>
+
+  <!-- اطلاعات -->
+  <text x="620" y="165" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#56d364" font-weight="700">Location</text>
+  <text x="620" y="187" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Iran</text>
+
+  <text x="620" y="225" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#56d364" font-weight="700">Timezone</text>
+  <text x="620" y="247" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Asia/Tehran</text>
+
+  <text x="620" y="285" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#56d364" font-weight="700">Focus</text>
+  <text x="620" y="307" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Web · AI</text>
+  <text x="620" y="327" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#c9d1d9">Open Source</text>
+
+  <!-- ═══ خط پایین ═══ -->
+  <line x1="55" y1="415" x2="845" y2="415" stroke="#238236" stroke-width="1"/>
+
+  <!-- امضا -->
+  <text x="55" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#56d364">
+    <tspan fill="#8dffc2">$</tspan> Hiva-OS v1.0 · Built with code &amp; rhythm 🎻
+  </text>
+
+  <!-- نقطه چشمک‌زن -->
+  <circle cx="845" cy="440" r="4" fill="#8dffc2">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
