@@ -1,7 +1,9 @@
-<!-- ═══════════════ 📇 PERSONAL CARD ═══════════════ -->
+<!-- ═══════════════ 🟢 HIVA HERO CARD ═══════════════ -->
 <div align="center">
-  <img src="personal-card.svg" width="95%" alt="Hiva Fourotan — Software Developer" />
+  <img src="hiva-hero.svg" width="95%" alt="Hiva Fourotan — Software Developer" />
 </div>
+
+<br/>
 
 <br/>
 <!-- ═══════════════ 🌊 HEADER (امواج) + 🌧️ MATRIX BACKGROUND ═══════════════ -->
