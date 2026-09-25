@@ -85,16 +85,22 @@
 </div>
 
 ---
-
 ## Dev Zone
 
-<p align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=gradientBlue&hideBorder&qColor=%23EAF6FF&aColor=%237DD3FC&textColor=%23EAF6FF&codeColor=%2338BDF8" alt="Dev Joke" width="460" />
-</p>
+<table>
+<tr>
+<td align="center" width="48%">
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=041A30&quoteColor=EAF6FF&authorColor=7DD3FC&symbolColor=38BDF8&border=false" alt="Dev Quote" width="760" />
-</p>
+<img src="https://readme-jokes.vercel.app/api?theme=gradientBlue&hideBorder&qColor=%23E0F2FE&aColor=%237DD3FC&textColor=%23E0F2FE&codeColor=%2338BDF8" alt="Dev Joke" width="100%"/>
+
+</td>
+<td align="center" width="48%">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=0F172A&quoteColor=E0F2FE&authorColor=7DD3FC&symbolColor=38BDF8&border=false" alt="Dev Quote" width="100%"/>
+
+</td>
+</tr>
+</table>
 
 
 <!-- ─────────────── 🏆 BADGES ─────────────── -->
