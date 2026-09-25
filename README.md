@@ -21,6 +21,17 @@
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
 
+<!-- ═══════════════ 🎮 پکمن (فقط اگه ورک‌فلو داری فعال کن) ═══════════════ -->
+<!--
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HivaFourotan/HivaFourotan/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HivaFourotan/HivaFourotan/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/HivaFourotan/HivaFourotan/output/pacman-contribution-graph.svg" width="100%">
+  </picture>
+</div>
+-->
+
 ---
 
 <!-- ═══════════════ 🛠️ TECH STACK ═══════════════ -->
@@ -57,14 +68,13 @@
 ## 💼 Featured Projects
 
 <a href="https://github.com/HivaFourotan/REPO-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-1&theme=tokyonight&hide_border=true&border_radius=10" />
+  <img src="https://img.shields.io/badge/📦_REPO--1-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <a href="https://github.com/HivaFourotan/REPO-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-2&theme=tokyonight&hide_border=true&border_radius=10" />
+  <img src="https://img.shields.io/badge/📦_REPO--2-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<br/>
 <a href="https://github.com/HivaFourotan/REPO-3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-3&theme=tokyonight&hide_border=true&border_radius=10" />
+  <img src="https://img.shields.io/badge/📦_REPO--3-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
@@ -81,6 +91,43 @@
 </a>
 
 > 💡 **Me and my friends built a team** — we're crafting cool projects together!
+
+</div>
+
+---
+
+<!-- ═══════════════ 😂 RANDOM DEV JOKE ═══════════════ -->
+<div align="center">
+
+## 😂 Random Dev Joke
+
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
+
+</div>
+
+---
+
+<!-- ═══════════════ 💬 RANDOM DEV QUOTE ═══════════════ -->
+<div align="center">
+
+## 💬 Random Dev Quote
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Readme Quotes" />
+
+</div>
+
+---
+
+<!-- ═══════════════ 🏆 CUSTOM BADGES ═══════════════ -->
+<div align="center">
+
+## 🏆 About Me in Badges
+
+<img src="https://img.shields.io/badge/🎻_Violinist-8B4513?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🎓_High_School_Coder-4B0082?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🚀_Young_Developer-00F7FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/☕_Coffee_Addict-6F4E37?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🌙_Night_Owl-1a1b27?style=for-the-badge" />
 
 </div>
 
