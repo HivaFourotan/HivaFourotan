@@ -1,6 +1,6 @@
 <!-- ═══════════════ 🌊 HEADER (امواج) ═══════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=I'm Hiva&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Builder%20%7C%20Dreamer&descAlignY=58&descSize=18" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=I%27m%20Hiva&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Builder%20%7C%20Dreamer&descAlignY=58&descSize=18" width="100%" />
 </div>
 
 <!-- ═══════════════ ⌨️ نام متحرک ═══════════════ -->
