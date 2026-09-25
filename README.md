@@ -54,11 +54,11 @@
 ## 💼 Featured Projects
 
 <a href="https://github.com/HivaFourotan/Linux-Ubuntu-26.04">
-  <img src="https://img.shields.io/badge/🐧_Ubuntu_26.04-181717?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/_Ubuntu_26.04-181717?style=for-the-badge&logo=linux&logoColor=white" />
 </a>
 &nbsp;
 <a href="https://github.com/HivaFourotan/Mac-Os-26-">
-  <img src="https://img.shields.io/badge/🍎_Mac_OS_26-181717?style=for-the-badge&logo=apple&logoColor=white" />
+  <img src="https://img.shields.io/badge/_Mac_OS_26-181717?style=for-the-badge&logo=apple&logoColor=white" />
 </a>
 &nbsp;
 <a href="https://github.com/HivaFourotan/Game-station">
