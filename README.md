@@ -84,22 +84,21 @@
 
 </div>
 
----
 ## Dev Zone
 
 <table>
-<tr>
-<td align="center" width="48%">
+  <tr>
+    <td align="center" width="48%" style="padding: 0 8px;">
 
 <img src="https://readme-jokes.vercel.app/api?theme=gradientBlue&hideBorder&qColor=%23E0F2FE&aColor=%237DD3FC&textColor=%23E0F2FE&codeColor=%2338BDF8" alt="Dev Joke" width="100%"/>
 
-</td>
-<td align="center" width="48%">
+    </td>
+    <td align="center" width="48%" style="padding: 0 8px;">
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=0F172A&quoteColor=E0F2FE&authorColor=7DD3FC&symbolColor=38BDF8&border=false" alt="Dev Quote" width="100%"/>
 
-</td>
-</tr>
+    </td>
+  </tr>
 </table>
 
 
