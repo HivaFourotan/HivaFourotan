@@ -1,8 +1,4 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                      🌐 HIVA-OS · PROFILE                        -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<!-- ─────────────── 🟢 HIVA HERO (همه چیز داخلش) ─────────────── -->
+<!-- ═══════════════ 🟢 HIVA HERO (همه چیز داخلش) ═══════════════ -->
 <div align="center">
   <a href="https://github.com/HivaFourotan">
     <img src="hiva-hero.svg" width="100%" alt="Hiva Fourotan — Software Developer" />
@@ -11,16 +7,23 @@
 
 <br/>
 
-<!-- ─────────────── 🐍 SNAKE ─────────────── -->
+<!-- ═══════════════ 🐍 SNAKE ═══════════════ -->
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 
 </div>
 
+<br/>
+
+<!-- ═══════════════ 🌧️ MATRIX RAIN ═══════════════ -->
+<div align="center">
+  <img src="matrix-rain.svg" width="100%" alt="Matrix Rain" />
+</div>
+
 ---
 
-<!-- ─────────────── 🛠️ TECH STACK ─────────────── -->
+<!-- ═══════════════ 🛠️ TECH STACK ═══════════════ -->
 <div align="center">
 
 ## 🛠️ Tech Stack
@@ -37,7 +40,7 @@
 
 ---
 
-<!-- ─────────────── 🔥 STREAK ─────────────── -->
+<!-- ═══════════════ 🔥 STREAK ═══════════════ -->
 <div align="center">
 
 ## 🔥 My Streak
@@ -48,83 +51,7 @@
 
 ---
 
-<!-- ─────────────── 💼 FEATURED PROJECTS ─────────────── -->
-<div align="center">
-
-## 💼 Featured Projects
-
-<a href="https://github.com/HivaFourotan/Linux-Ubuntu-26.04">
-  <img src="https://img.shields.io/badge/_Ubuntu_26.04-181717?style=for-the-badge&logo=linux&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://github.com/HivaFourotan/Mac-Os-26-">
-  <img src="https://img.shields.io/badge/_Mac_OS_26-181717?style=for-the-badge&logo=apple&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://github.com/HivaFourotan/Game-station">
-  <img src="https://img.shields.io/badge/🎮_Pixel_Games-181717?style=for-the-badge&logo=gamepad&logoColor=white" />
-</a>
-
-</div>
-
----
-
-<!-- ─────────────── 🏢 OUR ORGANIZATION ─────────────── -->
-<div align="center">
-
-## 🏢 Our Organization
-
-<a href="https://github.com/mokstudent">
-  <img src="https://img.shields.io/badge/🚀_MOK_Student-Building_Together-00F7FF?style=for-the-badge&labelColor=0d1117" />
-</a>
-
-<br/><br/>
-
-> 💡 **Me and my friends built a team** — we're crafting cool projects together!
-
-</div>
-
-<!-- ─────────────── 👨‍💻 DEV ZONE ─────────────── -->
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Welcome+to+my+Dev+Zone;Exploring+ideas...;Building+soft+%26+modern+UI;" alt="Typing Animation" />
-<br/><br/>
-
-<table width="100%" style="border-collapse: collapse; border: none;">
-  <tr style="border: none; background-color: transparent;">
-    
-    <!-- 🃏 بخش جوک (با رنگ‌های سافت، حباب مک و ارتفاع ثابت) -->
-    <td align="center" width="50%" style="border: none; padding: 10px;">
-      <img height="185" src="https://readme-jokes.vercel.app/api?bgColor=%231E293B&textColor=%2394A3B8&qColor=%2338BDF8&aColor=%237DD3FC&codeColor=%230EA5E9" alt="Dev Joke" />
-    </td>
-    
-    <!-- 💬 بخش نقل قول (همگام‌سازی شده با همان پالت رنگی و ارتفاع دقیقاً مشابه) -->
-    <td align="center" width="50%" style="border: none; padding: 10px;">
-      <img height="185" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=1E293B&quoteColor=38BDF8&authorColor=7DD3FC&symbolColor=0EA5E9&border=false" alt="Dev Quote" />
-    </td>
-
-  </tr>
-</table>
-
-</div>
-
-
-<!-- ─────────────── 🏆 BADGES ─────────────── -->
-<div align="center">
-
-## 🏆 About Me in Badges
-
-<img src="https://img.shields.io/badge/🎻_Violinist-8B4513?style=for-the-badge" />
-<img src="https://img.shields.io/badge/🎓_Science_Lover-4B0082?style=for-the-badge" />
-<img src="https://img.shields.io/badge/🚀_Young_Developer-00F7FF?style=for-the-badge&logoColor=black" />
-<img src="https://img.shields.io/badge/☕_Coffee_Addict-6F4E37?style=for-the-badge" />
-<img src="https://img.shields.io/badge/🌙_Night_Owl-1a1b27?style=for-the-badge" />
-
-</div>
-
----
-
-<!-- ─────────────── 🧑‍💻 ABOUT ME ─────────────── -->
+<!-- ═══════════════ 🧑‍💻 ABOUT ME ═══════════════ -->
 <div align="center">
 
 ## 🧑‍💻 About Me
