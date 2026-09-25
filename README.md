@@ -1,267 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1050" viewBox="0 0 900 1050">
-  <rect width="900" height="1050" fill="#0a0f0a"/>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                      🌐 HIVA-OS · PROFILE                        -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-  <defs>
-    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"    stop-color="#0a0f0a" stop-opacity="0.10"/>
-      <stop offset="0.15" stop-color="#0a0f0a" stop-opacity="0.80"/>
-      <stop offset="0.24" stop-color="#0a0f0a" stop-opacity="0.92"/>
-      <stop offset="0.86" stop-color="#0a0f0a" stop-opacity="0.92"/>
-      <stop offset="1"    stop-color="#0a0f0a" stop-opacity="0.80"/>
-    </linearGradient>
+<!-- ─────────────── 🌊 هدر گرادیانی ─────────────── -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=I'm%20Hiva&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Coder%20%7C%20Dreamer&descAlignY=58&descSize=18" width="100%" />
+</div>
 
-    <linearGradient id="waveG1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#1a4d2e"/>
-      <stop offset="50%"  stop-color="#2ea043"/>
-      <stop offset="100%" stop-color="#56d364"/>
-    </linearGradient>
-    <linearGradient id="waveG2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#0d3320"/>
-      <stop offset="50%"  stop-color="#1a4d2e"/>
-      <stop offset="100%" stop-color="#238636"/>
-    </linearGradient>
-    <linearGradient id="waveG3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#56d364"/>
-      <stop offset="50%"  stop-color="#8dffc2"/>
-      <stop offset="100%" stop-color="#56d364"/>
-    </linearGradient>
+<br/>
 
-    <g id="a" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">1</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
-      <text y="97" opacity="0.34">0</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">1</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
-      <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">1</text>
-      <text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="b" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">0</text><text y="27" opacity="0.09">1</text><text y="41" opacity="0.12">0</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">1</text><text y="83" opacity="0.27">0</text>
-      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
-      <text y="181" opacity="0.85">1</text><text y="195" opacity="0.93">0</text>
-      <text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="c" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">0</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
-      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">1</text>
-      <text y="167" opacity="0.76">1</text><text y="181" opacity="0.85">0</text>
-      <text y="195" opacity="0.93">0</text><text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="pa"><use href="#a" y="0"/><use href="#a" y="210"/><use href="#a" y="420"/><use href="#a" y="630"/><use href="#a" y="840"/><use href="#a" y="1050"/></g>
-    <g id="pb"><use href="#b" y="0"/><use href="#b" y="210"/><use href="#b" y="420"/><use href="#b" y="630"/><use href="#b" y="840"/><use href="#b" y="1050"/></g>
-    <g id="pc"><use href="#c" y="0"/><use href="#c" y="210"/><use href="#c" y="420"/><use href="#c" y="630"/><use href="#c" y="840"/><use href="#c" y="1050"/></g>
+<!-- ─────────────── 🟢 HIVA HERO (SVG با ماتریکس) ─────────────── -->
+<div align="center">
+  <a href="https://github.com/HivaFourotan">
+    <img src="hiva-hero.svg" width="100%" alt="Hiva Fourotan — Software Developer" />
+  </a>
+</div>
 
-    <clipPath id="tc1"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;420;420;0;0;0;0;0" keyTimes="0;0.038;0.20;0.225;0.25;0.5;0.75;1" dur="20s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="tc2"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;0;420;420;0;0;0;0" keyTimes="0;0.25;0.288;0.45;0.475;0.5;0.75;1" dur="20s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="tc3"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;0;0;420;420;0;0;0" keyTimes="0;0.25;0.5;0.538;0.70;0.725;0.75;1" dur="20s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="tc4"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;0;0;0;420;420;0;0" keyTimes="0;0.25;0.5;0.75;0.788;0.95;0.975;1" dur="20s" repeatCount="indefinite"/>
-    </rect></clipPath>
-  </defs>
+<br/>
 
-  <!-- ═══ ماتریکس رین — سرعت خیلی کم (4.5s تا 7s) ═══ -->
-  <g><use href="#pa" x="8"/><use href="#pa" x="136"/><use href="#pa" x="264"/><use href="#pa" x="392"/><use href="#pa" x="520"/><use href="#pa" x="648"/><use href="#pa" x="776"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></g>
-  <g opacity="0.85"><use href="#pb" x="40"/><use href="#pb" x="168"/><use href="#pb" x="296"/><use href="#pb" x="424"/><use href="#pb" x="552"/><use href="#pb" x="680"/><use href="#pb" x="808"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="5.2s" begin="-2.4s" repeatCount="indefinite"/></g>
-  <g opacity="0.75"><use href="#pc" x="72"/><use href="#pc" x="200"/><use href="#pc" x="328"/><use href="#pc" x="456"/><use href="#pc" x="584"/><use href="#pc" x="712"/><use href="#pc" x="840"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="6s" begin="-1.5s" repeatCount="indefinite"/></g>
-  <g opacity="0.65"><use href="#pa" x="104"/><use href="#pa" x="232"/><use href="#pa" x="360"/><use href="#pa" x="488"/><use href="#pa" x="616"/><use href="#pa" x="744"/><use href="#pa" x="872"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="6.8s" begin="-4s" repeatCount="indefinite"/></g>
-  <g opacity="0.55"><use href="#pb" x="120"/><use href="#pb" x="248"/><use href="#pb" x="376"/><use href="#pb" x="504"/><use href="#pb" x="632"/><use href="#pb" x="760"/><use href="#pb" x="888"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="7s" begin="-1s" repeatCount="indefinite"/></g>
+<!-- ─────────────── ⌨️ نام متحرک ─────────────── -->
+<div align="center">
+  <a href="https://github.com/HivaFourotan">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1200&color=8DFFC2&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B+I'm+Hiva;Full-Stack+Developer+%F0%9F%92%BB;Violinist+%26+Coder+%F0%9F%8E%BB;Building+cool+stuff+%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</div>
 
-  <rect width="900" height="1050" fill="url(#fade)"/>
-
-  <!-- ═══ امواج — سرعت خیلی کم (35s، 50s، 65s) ═══ -->
-  <g>
-    <path d="M0,180 Q112.5,140 225,180 T450,180 T675,180 T900,180 T1125,180 T1350,180 T1575,180 T1800,180 L1800,0 L0,0 Z" fill="url(#waveG2)" opacity="0.7">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="65s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,150 Q112.5,110 225,150 T450,150 T675,150 T900,150 T1125,150 T1350,150 T1575,150 T1800,150 L1800,0 L0,0 Z" fill="url(#waveG1)">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="50s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,130 Q112.5,90 225,130 T450,130 T675,130 T900,130 T1125,130 T1350,130 T1575,130 T1800,130 L1800,0 L0,0 Z" fill="url(#waveG3)" opacity="0.45">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="35s" repeatCount="indefinite"/>
-    </path>
-    <text x="450" y="80" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="1">I'm Hiva</text>
-    <text x="450" y="112" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#d1f7e0" letter-spacing="4">DEVELOPER · CODER · DREAMER</text>
-  </g>
-
-  <rect x="30" y="180" width="840" height="830" rx="20" fill="#0d1117" fill-opacity="0.6" stroke="#238636" stroke-width="1.5"/>
-
-  <text x="60" y="245" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="42" font-weight="800" fill="#ffffff">Hiva </text>
-  <text x="178" y="245" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="42" font-weight="800" fill="#8dffc2">Fourotan</text>
-  <line x1="60" y1="263" x2="555" y2="263" stroke="#238636" stroke-width="1.5"/>
-
-  <text x="60" y="300" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#7ee787">Software Developer</text>
-  <text x="60" y="326" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="500" fill="#56d364">Full-Stack · AI · Automation</text>
-
-  <!-- ═══ Hiva-OS — پالس آرام (6s) ═══ -->
-  <svg x="40" y="345" width="500" height="136" viewBox="140 0 540 148" xmlns="http://www.w3.org/2000/svg">
-    <style>
-      @keyframes px-pulse-slow { 0%,100% { opacity: 0.4 } 50% { opacity: 1 } }
-      .px { animation: px-pulse-slow 6s ease-in-out infinite }
-    </style>
-    <g fill="#40c463">
-      <rect x="150" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:0.05s"/>
-      <rect x="150" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:0.10s"/>
-      <rect x="150" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:0.15s"/>
-      <rect x="150" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:0.20s"/>
-      <rect x="150" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:0.25s"/>
-      <rect x="150" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:0.30s"/>
-      <rect x="150" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:0.35s"/>
-      <rect x="206" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:0.40s"/>
-      <rect x="206" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:0.45s"/>
-      <rect x="206" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:0.50s"/>
-      <rect x="206" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:0.55s"/>
-      <rect x="206" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:0.60s"/>
-      <rect x="206" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:0.65s"/>
-      <rect x="206" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:0.70s"/>
-      <rect x="164" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:0.75s"/>
-      <rect x="178" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:0.80s"/>
-      <rect x="192" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:0.85s"/>
-      <rect x="234" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:0.90s"/>
-      <rect x="234" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:0.95s"/>
-      <rect x="248" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:1.00s"/>
-      <rect x="248" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:1.05s"/>
-      <rect x="248" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:1.10s"/>
-      <rect x="248" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:1.15s"/>
-      <rect x="248" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:1.20s"/>
-      <rect x="248" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:1.25s"/>
-      <rect x="248" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:1.30s"/>
-      <rect x="262" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:1.35s"/>
-      <rect x="262" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:1.40s"/>
-      <rect x="290" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:1.45s"/>
-      <rect x="290" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:1.50s"/>
-      <rect x="290" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:1.55s"/>
-      <rect x="290" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:1.60s"/>
-      <rect x="290" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:1.65s"/>
-      <rect x="304" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:1.70s"/>
-      <rect x="304" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:1.75s"/>
-      <rect x="304" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:1.80s"/>
-      <rect x="318" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:1.85s"/>
-      <rect x="318" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:1.90s"/>
-      <rect x="332" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:1.95s"/>
-      <rect x="332" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:2.00s"/>
-      <rect x="332" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:2.05s"/>
-      <rect x="346" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:2.10s"/>
-      <rect x="346" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:2.15s"/>
-      <rect x="346" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:2.20s"/>
-      <rect x="346" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:2.25s"/>
-      <rect x="346" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:2.30s"/>
-      <rect x="374" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:2.35s"/>
-      <rect x="374" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:2.40s"/>
-      <rect x="374" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:2.45s"/>
-      <rect x="374" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:2.50s"/>
-      <rect x="374" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:2.55s"/>
-      <rect x="374" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:2.60s"/>
-      <rect x="388" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:2.65s"/>
-      <rect x="388" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:2.70s"/>
-      <rect x="402" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:2.75s"/>
-      <rect x="402" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:2.80s"/>
-      <rect x="416" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:2.85s"/>
-      <rect x="416" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:2.90s"/>
-      <rect x="430" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:2.95s"/>
-      <rect x="430" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:3.00s"/>
-      <rect x="430" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:3.05s"/>
-      <rect x="430" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:3.10s"/>
-      <rect x="430" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:3.15s"/>
-      <rect x="430" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:3.20s"/>
-      <rect x="458" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:3.25s"/>
-      <rect x="472" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:3.30s"/>
-      <rect x="486" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:3.35s"/>
-      <rect x="514" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:3.40s"/>
-      <rect x="514" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:3.45s"/>
-      <rect x="514" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:3.50s"/>
-      <rect x="514" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:3.55s"/>
-      <rect x="514" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:3.60s"/>
-      <rect x="570" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:3.65s"/>
-      <rect x="570" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:3.70s"/>
-      <rect x="570" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:3.75s"/>
-      <rect x="570" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:3.80s"/>
-      <rect x="570" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:3.85s"/>
-      <rect x="528" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:3.90s"/>
-      <rect x="528" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:3.95s"/>
-      <rect x="542" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:4.00s"/>
-      <rect x="542" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:4.05s"/>
-      <rect x="556" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:4.10s"/>
-      <rect x="556" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:4.15s"/>
-      <rect x="598" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:4.20s"/>
-      <rect x="598" y="49" width="12" height="12" rx="2" class="px" style="animation-delay:4.25s"/>
-      <rect x="598" y="63" width="12" height="12" rx="2" class="px" style="animation-delay:4.30s"/>
-      <rect x="598" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:4.35s"/>
-      <rect x="612" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:4.40s"/>
-      <rect x="612" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:4.45s"/>
-      <rect x="612" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:4.50s"/>
-      <rect x="626" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:4.55s"/>
-      <rect x="626" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:4.60s"/>
-      <rect x="626" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:4.65s"/>
-      <rect x="640" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:4.70s"/>
-      <rect x="640" y="77" width="12" height="12" rx="2" class="px" style="animation-delay:4.75s"/>
-      <rect x="640" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:4.80s"/>
-      <rect x="654" y="35" width="12" height="12" rx="2" class="px" style="animation-delay:4.85s"/>
-      <rect x="654" y="91" width="12" height="12" rx="2" class="px" style="animation-delay:4.90s"/>
-      <rect x="654" y="105" width="12" height="12" rx="2" class="px" style="animation-delay:4.95s"/>
-      <rect x="654" y="119" width="12" height="12" rx="2" class="px" style="animation-delay:5.00s"/>
-    </g>
-  </svg>
-
-  <!-- ═══ تایپینگ — چرخه ۲۰ ثانیه ═══ -->
-  <text x="60" y="545" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#8dffc2" clip-path="url(#tc1)">Hi 👋 I'm Hiva</text>
-  <text x="60" y="545" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#8dffc2" clip-path="url(#tc2)">Full-Stack Developer</text>
-  <text x="60" y="545" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#8dffc2" clip-path="url(#tc3)">Open Source Enthusiast</text>
-  <text x="60" y="545" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#8dffc2" clip-path="url(#tc4)">Building cool stuff 🚀</text>
-  <rect x="432" y="528" width="2" height="20" fill="#8dffc2">
-    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.6s" repeatCount="indefinite"/>
-  </rect>
-
-  <text x="60" y="610" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">I build web applications, explore AI-powered tools,</text>
-  <text x="60" y="630" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">and craft clean, efficient code. Currently a high</text>
-  <text x="60" y="650" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">school student passionate about open source.</text>
-
-  <text x="60" y="690" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-style="italic" fill="#8dffc2">"Code is my instrument, GitHub is my stage."</text>
-
-  <line x1="600" y1="210" x2="600" y2="960" stroke="#238636" stroke-width="1"/>
-  <text x="630" y="238" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#8dffc2" letter-spacing="1.5">AVAILABLE WORLDWIDE</text>
-  <line x1="630" y1="252" x2="845" y2="252" stroke="#238636" stroke-width="1"/>
-
-  <text x="630" y="296" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">LOCATION</text>
-  <text x="630" y="316" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Iran</text>
-
-  <text x="630" y="362" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">TIMEZONE</text>
-  <text x="630" y="382" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Asia/Tehran</text>
-
-  <text x="630" y="428" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">FOCUS</text>
-  <text x="630" y="448" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Web · AI</text>
-  <text x="630" y="468" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Open Source</text>
-
-  <text x="630" y="514" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">STATUS</text>
-  <text x="630" y="534" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Available for collab</text>
-
-  <text x="630" y="580" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">LEARNING</text>
-  <text x="630" y="600" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">TypeScript · AI</text>
-
-  <line x1="60" y1="970" x2="845" y2="970" stroke="#238636" stroke-width="1"/>
-  <text x="60" y="1000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#56d364">
-    <tspan fill="#8dffc2">$</tspan> Hiva-OS v1.0 · Built with code &amp; rhythm 🎻
-  </text>
-  <circle cx="845" cy="995" r="4" fill="#8dffc2">
-    <animate attributeName="opacity" values="1;1;0.3;0.3;1" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
-</svg>
 ---
 
-<!-- ═══════════════ 🐍 SNAKE ═══════════════ -->
+<!-- ─────────────── 🐍 SNAKE ─────────────── -->
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
@@ -270,7 +36,7 @@
 
 ---
 
-<!-- ═══════════════ 🛠️ TECH STACK ═══════════════ -->
+<!-- ─────────────── 🛠️ TECH STACK ─────────────── -->
 <div align="center">
 
 ## 🛠️ Tech Stack
@@ -287,44 +53,48 @@
 
 ---
 
-<!-- ═══════════════ 🔥 STREAK ═══════════════ -->
+<!-- ─────────────── 🔥 STREAK ─────────────── -->
 <div align="center">
 
 ## 🔥 My Streak
 
-<img src="https://streak-stats.demolab.com?user=HivaFourotan&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" />
+<img src="https://streak-stats.demolab.com?user=HivaFourotan&theme=tokyonight&hide_border=true&border_radius=12&background=0D1117&stroke=8DFFC2&ring=8DFFC2&fire=40C463&currStreakLabel=8DFFC2&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" />
 
 </div>
 
 ---
 
-<!-- ═══════════════ 💼 PROJECTS ═══════════════ -->
+<!-- ─────────────── 💼 FEATURED PROJECTS ─────────────── -->
 <div align="center">
 
 ## 💼 Featured Projects
 
 <a href="https://github.com/HivaFourotan/Linux-Ubuntu-26.04">
-  <img src="https://img.shields.io/badge/🐧_Ubuntu_26.04-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/🐧_Ubuntu_26.04-181717?style=for-the-badge&logo=linux&logoColor=white" />
 </a>
+&nbsp;
 <a href="https://github.com/HivaFourotan/Mac-Os-26-">
-  <img src="https://img.shields.io/badge/🍎_Mac_OS_26-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/🍎_Mac_OS_26-181717?style=for-the-badge&logo=apple&logoColor=white" />
 </a>
+&nbsp;
 <a href="https://github.com/HivaFourotan/Game-station">
-  <img src="https://img.shields.io/badge/🎮_Pixel_Games-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/🎮_Pixel_Games-181717?style=for-the-badge&logo=gamepad&logoColor=white" />
 </a>
 
 </div>
 
 ---
 
-<!-- ═══════════════ 🏢 ORGANIZATION ═══════════════ -->
+<!-- ─────────────── 🏢 OUR ORGANIZATION ─────────────── -->
 <div align="center">
 
 ## 🏢 Our Organization
 
 <a href="https://github.com/mokstudent">
-  <img src="https://img.shields.io/badge/🚀_Our_Team-Building_Together-00F7FF?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/🚀_MOK_Student-Building_Together-00F7FF?style=for-the-badge&labelColor=0d1117" />
 </a>
+
+<br/><br/>
 
 > 💡 **Me and my friends built a team** — we're crafting cool projects together!
 
@@ -332,29 +102,35 @@
 
 ---
 
-<!-- ═══════════════ 😂 DEV JOKE ═══════════════ -->
+<!-- ─────────────── 🎮 PIXEL / FUN ZONE ─────────────── -->
 <div align="center">
 
-## 😂 Dev Joke's
+## 😂 Dev Zone
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+**😂 Dev Joke**
 
 <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
 
-</div>
+</td>
+<td align="center" width="50%">
 
----
-
-<!-- ═══════════════ 💬 DEV QUOTE ═══════════════ -->
-<div align="center">
-
-## 💬 Dev Quote's
+**💬 Dev Quote**
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Readme Quotes" />
 
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
 
-<!-- ═══════════════ 🏆 BADGES ═══════════════ -->
+<!-- ─────────────── 🏆 BADGES ─────────────── -->
 <div align="center">
 
 ## 🏆 About Me in Badges
@@ -369,7 +145,7 @@
 
 ---
 
-<!-- ═══════════════ 🧑‍💻 ABOUT ME ═══════════════ -->
+<!-- ─────────────── 🧑‍💻 ABOUT ME ─────────────── -->
 <div align="center">
 
 ## 🧑‍💻 About Me
@@ -383,6 +159,6 @@ const me = {
   location: "Iran 🇮🇷",
   languages: ["JavaScript", "Python", "TypeScript"],
   hobbies: ["Coding", "Open Source", "Violin 🎻", "High School"],
-
+  currentFocus: "HTML - TypeScript - AI",
   funFact: "I won't sleep before the code works"
 };
