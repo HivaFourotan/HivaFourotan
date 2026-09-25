@@ -26,62 +26,21 @@
       <stop offset="100%" stop-color="#56d364"/>
     </linearGradient>
 
-    <!-- الگوهای ماتریکس -->
-    <g id="a" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">1</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
-      <text y="97" opacity="0.34">0</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">1</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
-      <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">1</text>
-      <text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="b" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">0</text><text y="27" opacity="0.09">1</text><text y="41" opacity="0.12">0</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">1</text><text y="83" opacity="0.27">0</text>
-      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
-      <text y="181" opacity="0.85">1</text><text y="195" opacity="0.93">0</text>
-      <text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="c" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">0</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
-      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">1</text>
-      <text y="167" opacity="0.76">1</text><text y="181" opacity="0.85">0</text>
-      <text y="195" opacity="0.93">0</text><text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="pa"><use href="#a" y="0"/><use href="#a" y="210"/><use href="#a" y="420"/><use href="#a" y="630"/><use href="#a" y="840"/><use href="#a" y="1050"/></g>
-    <g id="pb"><use href="#b" y="0"/><use href="#b" y="210"/><use href="#b" y="420"/><use href="#b" y="630"/><use href="#b" y="840"/><use href="#b" y="1050"/></g>
-    <g id="pc"><use href="#c" y="0"/><use href="#c" y="210"/><use href="#c" y="420"/><use href="#c" y="630"/><use href="#c" y="840"/><use href="#c" y="1050"/></g>
-
-    <clipPath id="tc1"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;420;420;0;0;0;0;0" keyTimes="0;0.038;0.20;0.225;0.25;0.5;0.75;1" dur="16s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="tc2"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;0;420;420;0;0;0;0" keyTimes="0;0.25;0.288;0.45;0.475;0.5;0.75;1" dur="16s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="tc3"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;0;0;420;420;0;0;0" keyTimes="0;0.25;0.5;0.538;0.70;0.725;0.75;1" dur="16s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="tc4"><rect x="60" y="525" width="0" height="30">
-      <animate attributeName="width" values="0;0;0;0;420;420;0;0" keyTimes="0;0.25;0.5;0.75;0.788;0.95;0.975;1" dur="16s" repeatCount="indefinite"/>
-    </rect></clipPath>
-  </defs>
-
-  <!-- ═══ ماتریکس رین (5 لایه بهینه) ═══ -->
-  <g><use href="#pa" x="8"/><use href="#pa" x="136"/><use href="#pa" x="264"/><use href="#pa" x="392"/><use href="#pa" x="520"/><use href="#pa" x="648"/><use href="#pa" x="776"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.2s" begin="-0.2s" repeatCount="indefinite"/></g>
-  <g opacity="0.85"><use href="#pb" x="40"/><use href="#pb" x="168"/><use href="#pb" x="296"/><use href="#pb" x="424"/><use href="#pb" x="552"/><use href="#pb" x="680"/><use href="#pb" x="808"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.4s" begin="-1.1s" repeatCount="indefinite"/></g>
-  <g opacity="0.75"><use href="#pc" x="72"/><use href="#pc" x="200"/><use href="#pc" x="328"/><use href="#pc" x="456"/><use href="#pc" x="584"/><use href="#pc" x="712"/><use href="#pc" x="840"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.7s" begin="-0.5s" repeatCount="indefinite"/></g>
-  <g opacity="0.65"><use href="#pa" x="104"/><use href="#pa" x="232"/><use href="#pa" x="360"/><use href="#pa" x="488"/><use href="#pa" x="616"/><use href="#pa" x="744"/><use href="#pa" x="872"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="2.1s" begin="-1.6s" repeatCount="indefinite"/></g>
-  <g opacity="0.55"><use href="#pb" x="120"/><use href="#pb" x="248"/><use href="#pb" x="376"/><use href="#pb" x="504"/><use href="#pb" x="632"/><use href="#pb" x="760"/><use href="#pb" x="888"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.9s" begin="-0.3s" repeatCount="indefinite"/></g>
-
-  <rect width="900" height="1050" fill="url(#fade)"/>
+  
+  <!-- ═══ امواج متحرک ═══ -->
+  <g>
+    <path d="M0,180 Q112.5,140 225,180 T450,180 T675,180 T900,180 T1125,180 T1350,180 T1575,180 T1800,180 L1800,0 L0,0 Z" fill="url(#waveG2)" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="18s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,150 Q112.5,110 225,150 T450,150 T675,150 T900,150 T1125,150 T1350,150 T1575,150 T1800,150 L1800,0 L0,0 Z" fill="url(#waveG1)">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,130 Q112.5,90 225,130 T450,130 T675,130 T900,130 T1125,130 T1350,130 T1575,130 T1800,130 L1800,0 L0,0 Z" fill="url(#waveG3)" opacity="0.45">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <text x="450" y="80" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="1">I'm Hiva</text>
+    <text x="450" y="112" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#d1f7e0" letter-spacing="4">DEVELOPER · CODER · DREAMER</text>
+  </g>
 
   <!-- ═══ کارت سبز ═══ -->
   <rect x="30" y="180" width="840" height="830" rx="20" fill="#0d1117" fill-opacity="0.6" stroke="#238636" stroke-width="1.5"/>
