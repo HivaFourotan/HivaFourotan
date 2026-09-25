@@ -116,6 +116,5 @@
 <rect x="654" y="119" width="12" height="12" rx="2" fill="#40c463"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" begin="2.00s" repeatCount="indefinite"/></rect>
 </g>
 <text x="50%" y="135" text-anchor="middle" fill="#7ee787" font-family="monospace" font-size="12">
-Hiva-OS • Software Engineer • Full-Stack • AI • Blockchain
 </text>
 </svg>
