@@ -1,4 +1,3 @@
-<!-- ═══════════════ 🟢 HIVA HERO (همه چیز داخلش) ═══════════════ -->
 <div align="center">
   <a href="https://github.com/HivaFourotan">
     <img src="hiva-hero.svg" width="100%" alt="Hiva Fourotan — Software Developer" />
@@ -6,8 +5,6 @@
 </div>
 
 <br/>
-
-<!-- ═══════════════ 🐍 SNAKE ═══════════════ -->
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
@@ -15,8 +12,6 @@
 </div>
 
 ---
-
-<!-- ═══════════════ 🛠️ TECH STACK ═══════════════ -->
 <div align="center">
 
 ## 🛠️ Tech Stack
@@ -32,8 +27,6 @@
 </div>
 
 ---
-
-<!-- ═══════════════ 🔥 STREAK ═══════════════ -->
 <div align="center">
 
 ## 🔥 My Streak
@@ -43,8 +36,6 @@
 </div>
 
 ---
-
-<!-- ═══════════════ 🧑‍💻 ABOUT ME ═══════════════ -->
 <div align="center">
 
 ## 🧑‍💻 About Me
