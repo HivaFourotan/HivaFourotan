@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1050" viewBox="0 0 900 1050">
-  <rect width="900" height="1050" fill="#0a0f0a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1380" viewBox="0 0 900 1380">
+  <rect width="900" height="1380" fill="#0a0f0a"/>
 
   <defs>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
@@ -40,9 +40,9 @@
     </rect></clipPath>
   </defs>
 
-  <rect width="900" height="1050" fill="url(#fade)"/>
+  <rect width="900" height="1380" fill="url(#fade)"/>
 
-  <!-- ═══ امواج — سرعت عادی (8s، 12s، 18s) ═══ -->
+  <!-- ═══ امواج ═══ -->
   <g>
     <path d="M0,180 Q112.5,140 225,180 T450,180 T675,180 T900,180 T1125,180 T1350,180 T1575,180 T1800,180 L1800,0 L0,0 Z" fill="url(#waveG2)" opacity="0.7">
       <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="18s" repeatCount="indefinite"/>
@@ -57,8 +57,10 @@
     <text x="450" y="112" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#d1f7e0" letter-spacing="4">DEVELOPER · CODER · DREAMER</text>
   </g>
 
-  <rect x="30" y="180" width="840" height="830" rx="20" fill="#0d1117" fill-opacity="0.6" stroke="#238636" stroke-width="1.5"/>
+  <!-- ═══ کارت اصلی ═══ -->
+  <rect x="30" y="180" width="840" height="1160" rx="20" fill="#0d1117" fill-opacity="0.6" stroke="#238636" stroke-width="1.5"/>
 
+  <!-- ═══════════ ستون چپ ═══════════ -->
   <text x="60" y="245" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="42" font-weight="800" fill="#ffffff">Hiva </text>
   <text x="178" y="245" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="42" font-weight="800" fill="#8dffc2">Fourotan</text>
   <line x1="60" y1="263" x2="555" y2="263" stroke="#238636" stroke-width="1.5"/>
@@ -66,7 +68,7 @@
   <text x="60" y="300" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#7ee787">Software Developer</text>
   <text x="60" y="326" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="500" fill="#56d364">Full-Stack · AI · Automation</text>
 
-  <!-- ═══ Hiva-OS — پالس عادی (2.4s) ═══ -->
+  <!-- ═══ Hiva-OS ═══ -->
   <svg x="40" y="345" width="500" height="136" viewBox="140 0 540 148" xmlns="http://www.w3.org/2000/svg">
     <style>
       @keyframes px-pulse { 0%,100% { opacity: 0.35 } 50% { opacity: 1 } }
@@ -176,7 +178,7 @@
     </g>
   </svg>
 
-  <!-- ═══ تایپینگ — چرخه ۱۶ ثانیه ═══ -->
+  <!-- ═══ تایپینگ ═══ -->
   <text x="60" y="545" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#8dffc2" clip-path="url(#tc1)">Hi 👋 I'm Hiva</text>
   <text x="60" y="545" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#8dffc2" clip-path="url(#tc2)">Full-Stack Developer</text>
   <text x="60" y="545" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" fill="#8dffc2" clip-path="url(#tc3)">Open Source Enthusiast</text>
@@ -191,7 +193,8 @@
 
   <text x="60" y="690" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-style="italic" fill="#8dffc2">"Code is my instrument, GitHub is my stage."</text>
 
-  <line x1="600" y1="210" x2="600" y2="960" stroke="#238636" stroke-width="1"/>
+  <!-- ═══════════ ستون راست ═══════════ -->
+  <line x1="600" y1="210" x2="600" y2="710" stroke="#238636" stroke-width="1"/>
   <text x="630" y="238" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#8dffc2" letter-spacing="1.5">AVAILABLE WORLDWIDE</text>
   <line x1="630" y1="252" x2="845" y2="252" stroke="#238636" stroke-width="1"/>
 
@@ -211,11 +214,63 @@
   <text x="630" y="580" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">LEARNING</text>
   <text x="630" y="600" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">TypeScript · AI</text>
 
-  <line x1="60" y1="970" x2="845" y2="970" stroke="#238636" stroke-width="1"/>
-  <text x="60" y="1000" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#56d364">
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--              💼 FEATURED PROJECTS                       -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <line x1="60" y1="740" x2="845" y2="740" stroke="#238636" stroke-width="1"/>
+  <text x="450" y="782" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#8dffc2">💼 Featured Projects</text>
+
+  <!-- پروژه ۱ -->
+  <rect x="100" y="810" width="220" height="46" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="210" y="839" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#8dffc2">🐧 Ubuntu 26.04</text>
+
+  <!-- پروژه ۲ -->
+  <rect x="340" y="810" width="220" height="46" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="450" y="839" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#8dffc2">🍎 Mac OS 26</text>
+
+  <!-- پروژه ۳ -->
+  <rect x="580" y="810" width="220" height="46" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="690" y="839" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#8dffc2">🎮 Pixel Games</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--              🏆 ABOUT ME IN BADGES                      -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <line x1="60" y1="900" x2="845" y2="900" stroke="#238636" stroke-width="1"/>
+  <text x="450" y="942" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#8dffc2">🏆 About Me in Badges</text>
+
+  <!-- بج‌ها — ۵ تا در یک ردیف -->
+  <rect x="59" y="970" width="150" height="38" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="134" y="994" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#8dffc2">🎻 Violinist</text>
+
+  <rect x="217" y="970" width="150" height="38" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="292" y="994" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#7ee787">🎓 Science Lover</text>
+
+  <rect x="375" y="970" width="150" height="38" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="450" y="994" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#56d364">🚀 Young Dev</text>
+
+  <rect x="533" y="970" width="150" height="38" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="608" y="994" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#8dffc2">☕ Coffee</text>
+
+  <rect x="691" y="970" width="150" height="38" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="766" y="994" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="600" fill="#7ee787">🌙 Night Owl</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--              🏢 OUR ORGANIZATION                        -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <line x1="60" y1="1050" x2="845" y2="1050" stroke="#238636" stroke-width="1"/>
+  <text x="450" y="1092" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="20" font-weight="700" fill="#8dffc2">🏢 Our Organization</text>
+
+  <rect x="300" y="1120" width="300" height="46" rx="6" fill="#161b22" stroke="#238636" stroke-width="1"/>
+  <text x="450" y="1149" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="600" fill="#8dffc2">🚀 MOK Student Team</text>
+
+  <text x="450" y="1200" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-style="italic" fill="#8b949e">💡 Me and my friends built a team — crafting cool projects together!</text>
+
+  <!-- ═══ امضا ═══ -->
+  <line x1="60" y1="1240" x2="845" y2="1240" stroke="#238636" stroke-width="1"/>
+  <text x="60" y="1270" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#56d364">
     <tspan fill="#8dffc2">$</tspan> Hiva-OS v1.0 · Built with code &amp; rhythm 🎻
   </text>
-  <circle cx="845" cy="995" r="4" fill="#8dffc2">
+  <circle cx="845" cy="1265" r="4" fill="#8dffc2">
     <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
   </circle>
 </svg>
