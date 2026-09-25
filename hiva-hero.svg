@@ -26,34 +26,6 @@
       <stop offset="100%" stop-color="#56d364"/>
     </linearGradient>
 
-    <g id="a" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">1</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
-      <text y="97" opacity="0.34">0</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">1</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
-      <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">1</text>
-      <text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="b" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">0</text><text y="27" opacity="0.09">1</text><text y="41" opacity="0.12">0</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">1</text><text y="83" opacity="0.27">0</text>
-      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">0</text><text y="167" opacity="0.76">1</text>
-      <text y="181" opacity="0.85">1</text><text y="195" opacity="0.93">0</text>
-      <text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="c" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
-      <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">0</text>
-      <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
-      <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">1</text>
-      <text y="167" opacity="0.76">1</text><text y="181" opacity="0.85">0</text>
-      <text y="195" opacity="0.93">0</text><text y="209" opacity="1" fill="#f4fff8">1</text>
-    </g>
-    <g id="pa"><use href="#a" y="0"/><use href="#a" y="210"/><use href="#a" y="420"/><use href="#a" y="630"/><use href="#a" y="840"/><use href="#a" y="1050"/></g>
-    <g id="pb"><use href="#b" y="0"/><use href="#b" y="210"/><use href="#b" y="420"/><use href="#b" y="630"/><use href="#b" y="840"/><use href="#b" y="1050"/></g>
-    <g id="pc"><use href="#c" y="0"/><use href="#c" y="210"/><use href="#c" y="420"/><use href="#c" y="630"/><use href="#c" y="840"/><use href="#c" y="1050"/></g>
-
     <clipPath id="tc1"><rect x="60" y="525" width="0" height="30">
       <animate attributeName="width" values="0;420;420;0;0;0;0;0" keyTimes="0;0.038;0.20;0.225;0.25;0.5;0.75;1" dur="20s" repeatCount="indefinite"/>
     </rect></clipPath>
@@ -67,18 +39,6 @@
       <animate attributeName="width" values="0;0;0;0;420;420;0;0" keyTimes="0;0.25;0.5;0.75;0.788;0.95;0.975;1" dur="20s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
-
-  <!-- ═══ ماتریکس رین — سرعت خیلی کم (4.5s تا 7s) ═══ -->
-  <g><use href="#pa" x="8"/><use href="#pa" x="136"/><use href="#pa" x="264"/><use href="#pa" x="392"/><use href="#pa" x="520"/><use href="#pa" x="648"/><use href="#pa" x="776"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></g>
-  <g opacity="0.85"><use href="#pb" x="40"/><use href="#pb" x="168"/><use href="#pb" x="296"/><use href="#pb" x="424"/><use href="#pb" x="552"/><use href="#pb" x="680"/><use href="#pb" x="808"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="5.2s" begin="-2.4s" repeatCount="indefinite"/></g>
-  <g opacity="0.75"><use href="#pc" x="72"/><use href="#pc" x="200"/><use href="#pc" x="328"/><use href="#pc" x="456"/><use href="#pc" x="584"/><use href="#pc" x="712"/><use href="#pc" x="840"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="6s" begin="-1.5s" repeatCount="indefinite"/></g>
-  <g opacity="0.65"><use href="#pa" x="104"/><use href="#pa" x="232"/><use href="#pa" x="360"/><use href="#pa" x="488"/><use href="#pa" x="616"/><use href="#pa" x="744"/><use href="#pa" x="872"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="6.8s" begin="-4s" repeatCount="indefinite"/></g>
-  <g opacity="0.55"><use href="#pb" x="120"/><use href="#pb" x="248"/><use href="#pb" x="376"/><use href="#pb" x="504"/><use href="#pb" x="632"/><use href="#pb" x="760"/><use href="#pb" x="888"/>
-    <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="7s" begin="-1s" repeatCount="indefinite"/></g>
 
   <rect width="900" height="1050" fill="url(#fade)"/>
 
