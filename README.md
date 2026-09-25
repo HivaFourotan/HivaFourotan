@@ -83,32 +83,31 @@
 > 💡 **Me and my friends built a team** — we're crafting cool projects together!
 
 </div>
+
 <!-- ─────────────── 👨‍💻 DEV ZONE ─────────────── -->
 <div align="center">
 
-## 👨‍💻 Dev Zone
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Welcome+to+my+Dev+Zone;Exploring+ideas...;Building+soft+%26+modern+UI;" alt="Typing Animation" />
+<br/><br/>
 
-<!-- انیمیشن تایپینگ با گرادیان آبی -->
-<a href="https://github.com/HivaFourotan">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Loading+Dev+Zone...;Fetching+the+best+jokes...;Compiling+intuition...;console.log('Hello+World!');" alt="Typing Animation" />
-</a>
-
-<br/>
-
-<table style="border-collapse: collapse; border: none;">
+<table width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none; background-color: transparent;">
-    <!-- بخش جوک -->
-    <td align="center" width="50%" style="border: none; padding: 5px;">
-      <img src="https://readme-jokes.vercel.app/api?theme=gradientBlue&hideBorder=true&qColor=%23E0F2FE&aColor=%2360A5FA&textColor=%23E0F2FE&codeColor=%2338BDF8" alt="Dev Joke" width="100%" style="border-radius: 12px;"/>
+    
+    <!-- 🃏 بخش جوک (با رنگ‌های سافت، حباب مک و ارتفاع ثابت) -->
+    <td align="center" width="50%" style="border: none; padding: 10px;">
+      <img height="185" src="https://readme-jokes.vercel.app/api?bgColor=%231E293B&textColor=%2394A3B8&qColor=%2338BDF8&aColor=%237DD3FC&codeColor=%230EA5E9" alt="Dev Joke" />
     </td>
-    <!-- بخش نقل قول -->
-    <td align="center" width="50%" style="border: none; padding: 5px;">
-      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=082f49&quoteColor=E0F2FE&authorColor=38BDF8&symbolColor=0284c7&border=false" alt="Dev Quote" width="100%" style="border-radius: 12px;"/>
+    
+    <!-- 💬 بخش نقل قول (همگام‌سازی شده با همان پالت رنگی و ارتفاع دقیقاً مشابه) -->
+    <td align="center" width="50%" style="border: none; padding: 10px;">
+      <img height="185" src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=1E293B&quoteColor=38BDF8&authorColor=7DD3FC&symbolColor=0EA5E9&border=false" alt="Dev Quote" />
     </td>
+
   </tr>
 </table>
 
 </div>
+
 
 <!-- ─────────────── 🏆 BADGES ─────────────── -->
 <div align="center">
