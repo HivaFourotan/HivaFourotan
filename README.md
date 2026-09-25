@@ -67,14 +67,14 @@
 
 ## 💼 Featured Projects
 
-<a href="https://github.com/HivaFourotan/REPO-1">
-  <img src="https://img.shields.io/badge/📦_REPO--1-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="[https://github.com/HivaFourotan/REPO-1](https://github.com/HivaFourotan/Linux-Ubuntu-26.04)">
+  <img src="https://img.shields.io/badge/_Ubunto 26.04-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="https://github.com/HivaFourotan/REPO-2">
-  <img src="https://img.shields.io/badge/📦_REPO--2-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="[https://github.com/HivaFourotan/REPO-2](https://github.com/HivaFourotan/Mac-Os-26-)">
+  <img src="https://img.shields.io/badge/_Mac OS 26-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="https://github.com/HivaFourotan/REPO-3">
-  <img src="https://img.shields.io/badge/📦_REPO--3-181717?style=for-the-badge&logo=github&logoColor=white" />
+<a href="[https://github.com/HivaFourotan/REPO-3](https://github.com/HivaFourotan/Game-station)">
+  <img src="https://img.shields.io/badge/_Pixel Games-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>
