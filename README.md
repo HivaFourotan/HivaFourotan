@@ -86,31 +86,11 @@
 
 ---
 
-<!-- ─────────────── 😂 DEV ZONE ─────────────── -->
-<div align="center">
+## Dev Zone
 
-## 😂 Dev Zone
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-**😂 Dev Joke**
-
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
-
-</td>
-<td align="center" width="50%">
-
-**💬 Dev Quote**
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Readme Quotes" />
-
-</td>
-</tr>
-</table>
-
-</div>
+| Dev Joke | Dev Quote |
+| :---: | :---: |
+| <img src="https://readme-jokes.vercel.app/api?theme=gradientBlue&hideBorder" alt="Dev Joke" width="100%"/> | <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=shadow_blue&quoteColor=E0F2FE&authorColor=7DD3FC&symbolColor=38BDF8" alt="Dev Quote" width="100%"/> |
 
 ---
 
