@@ -50,7 +50,7 @@
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HivaFourotan&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" />
+<img src="https://streak-stats.demolab.com?user=HivaFourotan&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" />
 
 </div>
 
@@ -61,7 +61,7 @@
 
 ## 🏆 GitHub Trophies
 
-<img src="https://github-profile-trophy.vercel.app/?username=HivaFourotan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8&margin-h=8" />
+<img src="https://github-profile-trophy.vercel.app/?username=HivaFourotan&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
 
 </div>
 
