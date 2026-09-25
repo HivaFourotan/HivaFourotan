@@ -83,23 +83,32 @@
 > 💡 **Me and my friends built a team** — we're crafting cool projects together!
 
 </div>
-## Dev Zone
+<!-- ─────────────── 👨‍💻 DEV ZONE ─────────────── -->
+<div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="48%" style="padding: 4px 10px; vertical-align: top;">
+## 👨‍💻 Dev Zone
 
-<img src="https://readme-jokes.vercel.app/api?theme=gradientBlue&hideBorder&qColor=%23E0F2FE&aColor=%2360A5FA&textColor=%23E0F2FE&codeColor=%2338BDF8" alt="Dev Joke" width="100%"/>
+<!-- انیمیشن تایپینگ با گرادیان آبی -->
+<a href="https://github.com/HivaFourotan">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Loading+Dev+Zone...;Fetching+the+best+jokes...;Compiling+intuition...;console.log('Hello+World!');" alt="Typing Animation" />
+</a>
 
+<br/>
+
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none; background-color: transparent;">
+    <!-- بخش جوک -->
+    <td align="center" width="50%" style="border: none; padding: 5px;">
+      <img src="https://readme-jokes.vercel.app/api?theme=gradientBlue&hideBorder=true&qColor=%23E0F2FE&aColor=%2360A5FA&textColor=%23E0F2FE&codeColor=%2338BDF8" alt="Dev Joke" width="100%" style="border-radius: 12px;"/>
     </td>
-    <td align="center" width="48%" style="padding: 4px 10px; vertical-align: top;">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=0F172A&quoteColor=E0F2FE&authorColor=60A5FA&symbolColor=38BDF8&border=false" alt="Dev Quote" width="100%"/>
-
+    <!-- بخش نقل قول -->
+    <td align="center" width="50%" style="border: none; padding: 5px;">
+      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&backgroundColor=082f49&quoteColor=E0F2FE&authorColor=38BDF8&symbolColor=0284c7&border=false" alt="Dev Quote" width="100%" style="border-radius: 12px;"/>
     </td>
   </tr>
 </table>
 
+</div>
 
 <!-- ─────────────── 🏆 BADGES ─────────────── -->
 <div align="center">
