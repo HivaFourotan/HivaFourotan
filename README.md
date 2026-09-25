@@ -131,6 +131,10 @@ const me = {
   location: "Iran 🇮🇷",
   languages: ["JavaScript", "Python", "TypeScript"],
   hobbies: ["Coding", "Open Source", "Violin 🎻", "High School"],
+<!-- ═══════════════ 🌐 CONNECT ═══════════════ --><div align="center">
+🌐 Connect With Me
+<a href="https://github.com/HivaFourotan"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://t.me/YOUR-TELEGRAM"> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /> </a> <a href="mailto:YOUR-EMAIL@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <a href="https://YOUR-WEBSITE.com"> <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /> </a></div>
+<!-- ═══════════════ 👀 VIEWS ═══════════════ --><div align="center"><img src="https://komarev.com/ghpvc/?username=HivaFourotan&style=for-the-badge&color=00F7FF&label=PROFILE+VIEWS" /> <img src="https://img.shields.io/github/followers/HivaFourotan?style=for-the-badge&color=00F7FF&label=FOLLOWERS&logo=github&logoColor=white" /></div><!-- ═══════════════ 🌊 FOOTER ═══════════════ --><div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=28&fontColor=ffffff&animation=twinkling" width="100%" /> </div>
   currentFocus: "HTML - TypeScript - AI",
   funFact: "I won't sleep before the code works"
 };
