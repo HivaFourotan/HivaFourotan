@@ -67,7 +67,69 @@
 
 ---
 
-<!-- ═══════════════ 🧑‍💻 درباره من ═══════════════ -->
+<!-- ═══════════════ 📈 ACTIVITY GRAPH ═══════════════ -->
+<div align="center">
+
+## 📈 Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HivaFourotan&theme=tokyo-night&hide_border=true&area=true&custom_title=Hiva's%20Contribution%20Graph&bg_color=1a1b27&color=00F7FF&line=00F7FF&point=ffffff" width="100%" />
+
+</div>
+
+---
+
+<!-- ═══════════════ 💼 FEATURED PROJECTS ═══════════════ -->
+<div align="center">
+
+## 💼 Featured Projects
+
+<a href="https://github.com/HivaFourotan/REPO-1">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-1&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" />
+</a>
+<a href="https://github.com/HivaFourotan/REPO-2">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-2&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" />
+</a>
+<br/>
+<a href="https://github.com/HivaFourotan/REPO-3">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-3&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" />
+</a>
+<a href="https://github.com/HivaFourotan/REPO-4">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-4&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" />
+</a>
+<br/>
+<a href="https://github.com/HivaFourotan/REPO-5">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=HivaFourotan&repo=REPO-5&theme=tokyonight&hide_border=true&border_radius=10&cache_seconds=86400" />
+</a>
+
+</div>
+
+---
+
+<!-- ═══════════════ 🏢 OUR ORGANIZATION ═══════════════ -->
+<div align="center">
+
+## 🏢 Our Organization
+
+<a href="https://github.com/YOUR-ORG">
+  <img src="https://img.shields.io/badge/🚀_Our_Team-Building_Together-00F7FF?style=for-the-badge&labelColor=0d1117" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/YOUR-ORG">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR-ORG&repo=ORG-REPO-1&theme=tokyonight&hide_border=true&border_radius=10" />
+</a>
+<a href="https://github.com/YOUR-ORG">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR-ORG&repo=ORG-REPO-2&theme=tokyonight&hide_border=true&border_radius=10" />
+</a>
+
+> 💡 **Me and my friends built a team** — we're crafting cool projects together!
+
+</div>
+
+---
+
+<!-- ═══════════════ 🧑‍💻 ABOUT ME ═══════════════ -->
 <div align="center">
 
 ## 🧑‍💻 About Me
