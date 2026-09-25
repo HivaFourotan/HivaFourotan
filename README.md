@@ -38,7 +38,7 @@ const me = {
   role: "Developer 🚀",
   location: "Iran 🇮🇷",
   languages: ["JavaScript", "Python", "TypeScript"],
-  hobbies: ["Coding", "Open Source", "Coffee ☕"],
+  hobbies: ["Coding", "Open Source", "violin","High School"],
   currentFocus: "HTML - TypeScript - AI",
   funFact: "I won't sleep before the code works"
 };
