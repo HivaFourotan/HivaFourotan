@@ -1,18 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="2000" viewBox="0 0 900 2000">
-  <rect width="900" height="2000" fill="#0a0f0a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <rect width="900" height="560" fill="#0a0f0a"/>
 
   <defs>
-    <!-- ═══ گرادینت محو شدن ═══ -->
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0"    stop-color="#0a0f0a" stop-opacity="0.15"/>
-      <stop offset="0.12" stop-color="#0a0f0a" stop-opacity="0.6"/>
-      <stop offset="0.2"  stop-color="#0a0f0a" stop-opacity="0.88"/>
-      <stop offset="0.85" stop-color="#0a0f0a" stop-opacity="0.88"/>
-      <stop offset="0.95" stop-color="#0a0f0a" stop-opacity="0.6"/>
-      <stop offset="1"    stop-color="#0a0f0a" stop-opacity="0.15"/>
+      <stop offset="0.15" stop-color="#0a0f0a" stop-opacity="0.65"/>
+      <stop offset="0.3"  stop-color="#0a0f0a" stop-opacity="0.9"/>
+      <stop offset="0.85" stop-color="#0a0f0a" stop-opacity="0.9"/>
+      <stop offset="1"    stop-color="#0a0f0a" stop-opacity="0.85"/>
     </linearGradient>
 
-    <!-- ═══ گرادینت امواج ═══ -->
     <linearGradient id="waveG1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#1a4d2e"/>
       <stop offset="50%"  stop-color="#2ea043"/>
@@ -29,8 +26,8 @@
       <stop offset="100%" stop-color="#56d364"/>
     </linearGradient>
 
-    <!-- ═══ الگوهای ماتریکس (کد خودت) ═══ -->
-    <g id="a" fill="#8dffc2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+    <!-- الگوهای ماتریکس -->
+    <g id="a" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
       <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">1</text>
       <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
       <text y="97" opacity="0.34">0</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
@@ -38,7 +35,7 @@
       <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">1</text>
       <text y="209" opacity="1" fill="#f4fff8">1</text>
     </g>
-    <g id="b" fill="#8dffc2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+    <g id="b" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
       <text y="13" opacity="0.07">0</text><text y="27" opacity="0.09">1</text><text y="41" opacity="0.12">0</text>
       <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">1</text><text y="83" opacity="0.27">0</text>
       <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
@@ -46,39 +43,20 @@
       <text y="181" opacity="0.85">1</text><text y="195" opacity="0.93">0</text>
       <text y="209" opacity="1" fill="#f4fff8">1</text>
     </g>
-    <g id="c" fill="#8dffc2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+    <g id="c" fill="#8dffc2" font-family="ui-monospace,monospace" font-size="11">
       <text y="13" opacity="0.07">1</text><text y="27" opacity="0.09">0</text><text y="41" opacity="0.12">0</text>
       <text y="55" opacity="0.16">1</text><text y="69" opacity="0.21">0</text><text y="83" opacity="0.27">1</text>
       <text y="97" opacity="0.34">1</text><text y="111" opacity="0.42">0</text><text y="125" opacity="0.50">1</text>
-      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">1</text><text y="167" opacity="0.76">1</text>
-      <text y="181" opacity="0.85">0</text><text y="195" opacity="0.93">0</text>
-      <text y="209" opacity="1" fill="#f4fff8">1</text>
+      <text y="139" opacity="0.58">0</text><text y="153" opacity="0.67">1</text>
+      <text y="167" opacity="0.76">1</text><text y="181" opacity="0.85">0</text>
+      <text y="195" opacity="0.93">0</text><text y="209" opacity="1" fill="#f4fff8">1</text>
     </g>
-
-    <!-- ═══ تکرار ستون‌ها برای پوشش 2000px ═══ -->
-    <g id="pa">
-      <use href="#a" y="0"/><use href="#a" y="-210"/><use href="#a" y="-420"/>
-      <use href="#a" y="-630"/><use href="#a" y="-840"/><use href="#a" y="-1050"/>
-      <use href="#a" y="-1260"/><use href="#a" y="-1470"/><use href="#a" y="-1680"/>
-      <use href="#a" y="-1890"/><use href="#a" y="-2100"/>
-    </g>
-    <g id="pb">
-      <use href="#b" y="0"/><use href="#b" y="-210"/><use href="#b" y="-420"/>
-      <use href="#b" y="-630"/><use href="#b" y="-840"/><use href="#b" y="-1050"/>
-      <use href="#b" y="-1260"/><use href="#b" y="-1470"/><use href="#b" y="-1680"/>
-      <use href="#b" y="-1890"/><use href="#b" y="-2100"/>
-    </g>
-    <g id="pc">
-      <use href="#c" y="0"/><use href="#c" y="-210"/><use href="#c" y="-420"/>
-      <use href="#c" y="-630"/><use href="#c" y="-840"/><use href="#c" y="-1050"/>
-      <use href="#c" y="-1260"/><use href="#c" y="-1470"/><use href="#c" y="-1680"/>
-      <use href="#c" y="-1890"/><use href="#c" y="-2100"/>
-    </g>
+    <g id="pa"><use href="#a" y="0"/><use href="#a" y="-210"/><use href="#a" y="-420"/><use href="#a" y="-630"/></g>
+    <g id="pb"><use href="#b" y="0"/><use href="#b" y="-210"/><use href="#b" y="-420"/><use href="#b" y="-630"/></g>
+    <g id="pc"><use href="#c" y="0"/><use href="#c" y="-210"/><use href="#c" y="-420"/><use href="#c" y="-630"/></g>
   </defs>
 
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                    🌧️ ماتریکس رین                       -->
-  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- ماتریکس رین -->
   <g><use href="#pa" x="8"/><use href="#pa" x="136"/><use href="#pa" x="264"/><use href="#pa" x="392"/><use href="#pa" x="520"/><use href="#pa" x="648"/><use href="#pa" x="776"/>
     <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="1.2s" begin="-0.2s" repeatCount="indefinite"/></g>
   <g opacity="0.82"><use href="#pb" x="24"/><use href="#pb" x="152"/><use href="#pb" x="280"/><use href="#pb" x="408"/><use href="#pb" x="536"/><use href="#pb" x="664"/><use href="#pb" x="792"/>
@@ -96,12 +74,9 @@
   <g opacity="0.86"><use href="#pb" x="120"/><use href="#pb" x="248"/><use href="#pb" x="376"/><use href="#pb" x="504"/><use href="#pb" x="632"/><use href="#pb" x="760"/><use href="#pb" x="888"/>
     <animateTransform attributeName="transform" type="translate" from="0 -210" to="0 0" dur="2s" begin="-1.55s" repeatCount="indefinite"/></g>
 
-  <!-- ═══ گرادینت محو ═══ -->
-  <rect width="900" height="2000" fill="url(#fade)"/>
+  <rect width="900" height="560" fill="url(#fade)"/>
 
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                  🌊 امواج متحرک بالای صفحه              -->
-  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- امواج متحرک بالا -->
   <g>
     <path d="M0,180 Q112.5,140 225,180 T450,180 T675,180 T900,180 T1125,180 T1350,180 T1575,180 T1800,180 L1800,0 L0,0 Z" fill="url(#waveG2)" opacity="0.7">
       <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="18s" repeatCount="indefinite"/>
@@ -112,168 +87,44 @@
     <path d="M0,130 Q112.5,90 225,130 T450,130 T675,130 T900,130 T1125,130 T1350,130 T1575,130 T1800,130 L1800,0 L0,0 Z" fill="url(#waveG3)" opacity="0.45">
       <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="8s" repeatCount="indefinite"/>
     </path>
-
-    <!-- نام روی امواج -->
-    <text x="450" y="80" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="1">I'm Hiva</text>
-    <text x="450" y="112" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#d1f7e0" letter-spacing="3">DEVELOPER · VIOLINIST · DREAMER</text>
+    <text x="450" y="80" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="1">I'm Hiva</text>
+    <text x="450" y="112" text-anchor="middle" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" font-weight="500" fill="#d1f7e0" letter-spacing="3">DEVELOPER · VIOLINIST · DREAMER</text>
   </g>
 
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     👤 HERO CARD                        -->
-  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- کارت معرفی -->
+  <text x="55" y="265" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="44" font-weight="800" fill="#ffffff">Hiva </text>
+  <text x="178" y="265" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="44" font-weight="800" fill="#8dffc2">Fourotan</text>
+  <line x1="55" y1="288" x2="540" y2="288" stroke="#238636" stroke-width="1.5"/>
 
-  <text x="55" y="290" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">Hiva </text>
-  <text x="178" y="290" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#8dffc2">Fourotan</text>
-  <line x1="55" y1="312" x2="540" y2="312" stroke="#238636" stroke-width="1.5"/>
+  <text x="55" y="328" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="21" font-weight="700" fill="#7ee787">Software Developer</text>
+  <text x="55" y="358" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="14" font-weight="500" fill="#56d364">Full-Stack · AI · Automation</text>
 
-  <text x="55" y="352" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#7ee787">Software Developer</text>
-  <text x="55" y="382" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#56d364">Full-Stack · AI · Automation</text>
+  <text x="55" y="400" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">I build web applications, explore AI-powered tools,</text>
+  <text x="55" y="420" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">and craft clean, efficient code. Currently a high</text>
+  <text x="55" y="440" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">school student passionate about open source.</text>
 
-  <text x="55" y="425" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">I build web applications, explore AI-powered tools,</text>
-  <text x="55" y="445" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">and craft clean, efficient code. Currently a high</text>
-  <text x="55" y="465" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">school student passionate about open source.</text>
+  <text x="55" y="478" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-style="italic" fill="#8dffc2">"Code is my instrument, GitHub is my stage."</text>
 
-  <text x="55" y="500" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#8dffc2">"Code is my instrument, GitHub is my stage."</text>
+  <line x1="580" y1="220" x2="580" y2="480" stroke="#238636" stroke-width="1"/>
+  <text x="620" y="245" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#8dffc2" letter-spacing="1.5">AVAILABLE WORLDWIDE</text>
+  <line x1="620" y1="258" x2="845" y2="258" stroke="#238636" stroke-width="1"/>
 
-  <line x1="580" y1="240" x2="580" y2="510" stroke="#238636" stroke-width="1"/>
-  <text x="620" y="265" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8dffc2" letter-spacing="1.5">AVAILABLE WORLDWIDE</text>
-  <line x1="620" y1="278" x2="845" y2="278" stroke="#238636" stroke-width="1"/>
+  <text x="620" y="295" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">LOCATION</text>
+  <text x="620" y="315" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Iran</text>
 
-  <text x="620" y="316" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#56d364">LOCATION</text>
-  <text x="620" y="336" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Iran</text>
+  <text x="620" y="352" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">TIMEZONE</text>
+  <text x="620" y="372" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Asia/Tehran</text>
 
-  <text x="620" y="374" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#56d364">TIMEZONE</text>
-  <text x="620" y="394" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Asia/Tehran</text>
+  <text x="620" y="409" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="12" font-weight="700" fill="#56d364">FOCUS</text>
+  <text x="620" y="429" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Web · AI</text>
+  <text x="620" y="449" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="13" fill="#c9d1d9">Open Source</text>
 
-  <text x="620" y="432" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#56d364">FOCUS</text>
-  <text x="620" y="452" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Web · AI</text>
-  <text x="620" y="472" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#c9d1d9">Open Source</text>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     🛠️ TECH STACK                        -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <text x="450" y="570" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#8dffc2">🛠️ Tech Stack</text>
-  <line x1="330" y1="582" x2="570" y2="582" stroke="#238636" stroke-width="1"/>
-
-  <text x="450" y="612" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#56d364">Languages &amp; Frontend</text>
-  <image xlink:href="https://skillicons.dev/icons?i=js,ts,python,html,css,tailwind,react,nextjs&amp;theme=dark&amp;perline=8" href="https://skillicons.dev/icons?i=js,ts,python,html,css,tailwind,react,nextjs&amp;theme=dark&amp;perline=8" x="150" y="622" width="600" height="40" preserveAspectRatio="xMidYMid meet"/>
-
-  <text x="450" y="692" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#56d364">Backend &amp; Tools</text>
-  <image xlink:href="https://skillicons.dev/icons?i=nodejs,express,git,github,vscode,docker,linux,mongodb&amp;theme=dark&amp;perline=8" href="https://skillicons.dev/icons?i=nodejs,express,git,github,vscode,docker,linux,mongodb&amp;theme=dark&amp;perline=8" x="150" y="702" width="600" height="40" preserveAspectRatio="xMidYMid meet"/>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     🔥 STREAK                            -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <text x="450" y="800" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#8dffc2">🔥 My Streak</text>
-  <line x1="340" y1="812" x2="560" y2="812" stroke="#238636" stroke-width="1"/>
-  <image xlink:href="https://streak-stats.demolab.com?user=HivaFourotan&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=10" href="https://streak-stats.demolab.com?user=HivaFourotan&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=10" x="180" y="830" width="540" height="180" preserveAspectRatio="xMidYMid meet"/>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     💼 PROJECTS                          -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <text x="450" y="1050" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#8dffc2">💼 Featured Projects</text>
-  <line x1="310" y1="1062" x2="590" y2="1062" stroke="#238636" stroke-width="1"/>
-
-  <a xlink:href="https://github.com/HivaFourotan/Linux-Ubuntu-26.04" href="https://github.com/HivaFourotan/Linux-Ubuntu-26.04">
-    <image xlink:href="https://img.shields.io/badge/🐧_Ubuntu_26.04-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" href="https://img.shields.io/badge/🐧_Ubuntu_26.04-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" x="60" y="1080" width="240" height="30"/>
-  </a>
-  <a xlink:href="https://github.com/HivaFourotan/Mac-Os-26-" href="https://github.com/HivaFourotan/Mac-Os-26-">
-    <image xlink:href="https://img.shields.io/badge/🍎_Mac_OS_26-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" href="https://img.shields.io/badge/🍎_Mac_OS_26-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" x="330" y="1080" width="240" height="30"/>
-  </a>
-  <a xlink:href="https://github.com/HivaFourotan/Game-station" href="https://github.com/HivaFourotan/Game-station">
-    <image xlink:href="https://img.shields.io/badge/🎮_Pixel_Games-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" href="https://img.shields.io/badge/🎮_Pixel_Games-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" x="600" y="1080" width="240" height="30"/>
-  </a>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     🏢 ORGANIZATION                      -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <text x="450" y="1170" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#8dffc2">🏢 Our Organization</text>
-  <line x1="330" y1="1182" x2="570" y2="1182" stroke="#238636" stroke-width="1"/>
-
-  <a xlink:href="https://github.com/mokstudent" href="https://github.com/mokstudent">
-    <image xlink:href="https://img.shields.io/badge/🚀_Our_Team-Building_Together-00F7FF?style=for-the-badge&amp;labelColor=0d1117" href="https://img.shields.io/badge/🚀_Our_Team-Building_Together-00F7FF?style=for-the-badge&amp;labelColor=0d1117" x="300" y="1200" width="300" height="30"/>
-  </a>
-  <text x="450" y="1260" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#8b949e">💡 Me and my friends built a team — crafting cool projects together!</text>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     😂 FUN ZONE                          -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <text x="450" y="1310" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#8dffc2">😂 Fun Zone</text>
-  <line x1="370" y1="1322" x2="530" y2="1322" stroke="#238636" stroke-width="1"/>
-
-  <text x="225" y="1355" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#f0883e">Dev Joke</text>
-  <image xlink:href="https://readme-jokes.vercel.app/api?theme=tokyonight&amp;hideBorder" href="https://readme-jokes.vercel.app/api?theme=tokyonight&amp;hideBorder" x="30" y="1365" width="390" height="150" preserveAspectRatio="xMidYMid meet"/>
-
-  <text x="675" y="1355" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#f0883e">Dev Quote</text>
-  <image xlink:href="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight" href="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight" x="480" y="1365" width="390" height="120" preserveAspectRatio="xMidYMid meet"/>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     🏆 BADGES                            -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <text x="450" y="1560" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#8dffc2">🏆 About Me in Badges</text>
-  <line x1="290" y1="1572" x2="610" y2="1572" stroke="#238636" stroke-width="1"/>
-
-  <image xlink:href="https://img.shields.io/badge/🎻_Violinist-8B4513?style=for-the-badge" href="https://img.shields.io/badge/🎻_Violinist-8B4513?style=for-the-badge" x="60" y="1590" width="150" height="28"/>
-  <image xlink:href="https://img.shields.io/badge/🎓_Science_Lover-4B0082?style=for-the-badge" href="https://img.shields.io/badge/🎓_Science_Lover-4B0082?style=for-the-badge" x="220" y="1590" width="180" height="28"/>
-  <image xlink:href="https://img.shields.io/badge/🚀_Young_Dev-00F7FF?style=for-the-badge" href="https://img.shields.io/badge/🚀_Young_Dev-00F7FF?style=for-the-badge" x="410" y="1590" width="160" height="28"/>
-  <image xlink:href="https://img.shields.io/badge/☕_Coffee_Addict-6F4E37?style=for-the-badge" href="https://img.shields.io/badge/☕_Coffee_Addict-6F4E37?style=for-the-badge" x="580" y="1590" width="170" height="28"/>
-  <image xlink:href="https://img.shields.io/badge/🌙_Night_Owl-1a1b27?style=for-the-badge" href="https://img.shields.io/badge/🌙_Night_Owl-1a1b27?style=for-the-badge" x="330" y="1625" width="150" height="28"/>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     🧑‍💻 ABOUT ME (code)                  -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <text x="450" y="1700" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#8dffc2">🧑‍💻 About Me</text>
-  <line x1="340" y1="1712" x2="560" y2="1712" stroke="#238636" stroke-width="1"/>
-
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
-    <text x="80" y="1745" fill="#c9d1d9">const <tspan fill="#7ee787">me</tspan> = {</text>
-    <text x="100" y="1767" fill="#c9d1d9">name: <tspan fill="#8dffc2">"Hiva"</tspan>,</text>
-    <text x="100" y="1787" fill="#c9d1d9">role: <tspan fill="#8dffc2">"Developer 🚀"</tspan>,</text>
-    <text x="100" y="1807" fill="#c9d1d9">location: <tspan fill="#8dffc2">"Iran 🇮🇷"</tspan>,</text>
-    <text x="100" y="1827" fill="#c9d1d9">languages: [<tspan fill="#8dffc2">"JavaScript"</tspan>, <tspan fill="#8dffc2">"Python"</tspan>, <tspan fill="#8dffc2">"TypeScript"</tspan>],</text>
-    <text x="100" y="1847" fill="#c9d1d9">hobbies: [<tspan fill="#8dffc2">"Coding"</tspan>, <tspan fill="#8dffc2">"Violin 🎻"</tspan>, <tspan fill="#8dffc2">"High School"</tspan>],</text>
-    <text x="100" y="1867" fill="#c9d1d9">funFact: <tspan fill="#8dffc2">"I won't sleep before the code works"</tspan></text>
-    <text x="80" y="1887" fill="#c9d1d9">};</text>
-  </g>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                     🌐 CONNECT                           -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-
-  <a xlink:href="https://github.com/HivaFourotan" href="https://github.com/HivaFourotan">
-    <image xlink:href="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" href="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" x="230" y="1920" width="130" height="28"/>
-  </a>
-  <a xlink:href="https://github.com/HivaFourotan" href="https://github.com/HivaFourotan">
-    <image xlink:href="https://komarev.com/ghpvc/?username=HivaFourotan&amp;style=for-the-badge&amp;color=00F7FF&amp;label=VIEWS" href="https://komarev.com/ghpvc/?username=HivaFourotan&amp;style=for-the-badge&amp;color=00F7FF&amp;label=VIEWS" x="380" y="1920" width="140" height="28"/>
-  </a>
-  <a xlink:href="https://github.com/HivaFourotan" href="https://github.com/HivaFourotan">
-    <image xlink:href="https://img.shields.io/github/followers/HivaFourotan?style=for-the-badge&amp;color=00F7FF&amp;label=FOLLOWERS&amp;logo=github" href="https://img.shields.io/github/followers/HivaFourotan?style=for-the-badge&amp;color=00F7FF&amp;label=FOLLOWERS&amp;logo=github" x="540" y="1920" width="150" height="28"/>
-  </a>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                🌊 امواج متحرک پایین صفحه                -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <g>
-    <path d="M0,1830 Q112.5,1870 225,1830 T450,1830 T675,1830 T900,1830 T1125,1830 T1350,1830 T1575,1830 T1800,1830 L1800,2000 L0,2000 Z" fill="url(#waveG2)" opacity="0.7">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="18s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,1860 Q112.5,1900 225,1860 T450,1860 T675,1860 T900,1860 T1125,1860 T1350,1860 T1575,1860 T1800,1860 L1800,2000 L0,2000 Z" fill="url(#waveG1)">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="12s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,1880 Q112.5,1920 225,1880 T450,1880 T675,1880 T900,1880 T1125,1880 T1350,1880 T1575,1880 T1800,1880 L1800,2000 L0,2000 Z" fill="url(#waveG3)" opacity="0.5">
-      <animateTransform attributeName="transform" type="translate" from="0,0" to="-900,0" dur="8s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- امضا روی موج پایین -->
-    <text x="450" y="1955" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0a0f0a">
-      <tspan fill="#0a0f0a" font-weight="700">$</tspan> Hiva-OS v1.0 · Built with code &amp; rhythm 🎻
-    </text>
-  </g>
+  <!-- خط پایین + امضا -->
+  <line x1="55" y1="500" x2="845" y2="500" stroke="#238636" stroke-width="1"/>
+  <text x="55" y="530" font-family="ui-monospace,monospace" font-size="12" fill="#56d364">
+    <tspan fill="#8dffc2">$</tspan> Hiva-OS v1.0 · Built with code &amp; rhythm 🎻
+  </text>
+  <circle cx="845" cy="525" r="4" fill="#8dffc2">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
 </svg>
